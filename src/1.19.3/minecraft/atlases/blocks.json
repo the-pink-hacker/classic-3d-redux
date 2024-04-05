@@ -1,0 +1,9 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "classic-3d/block",
+            "prefix": "classic-3d/block/"
+        }
+    ]
+}
