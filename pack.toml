@@ -9,10 +9,12 @@ maximum = 31
 [profile.debug]
 output_type = "uncompressed"
 relocation = "symbolic"
+json_type = "pretty"
 
 [profile.release]
 output_type = "zip"
 relocation = "copy"
+json_type = "compact"
 
 [build.1-20]
 bundles = [
