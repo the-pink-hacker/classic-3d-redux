@@ -1,3 +1,20 @@
-[pack.meta]
+[pack]
 name = "Classic 3D"
-description = "A 3D take on Minecraft."
+description = "Adds more detail to Minecraft's models."
+
+[pack.format]
+minimum = 14
+maximum = 31
+
+[profile.debug]
+output_type = "uncompressed"
+relocation = "symbolic"
+
+[profile.release]
+output_type = "zip"
+relocation = "copy"
+
+[build.1-20]
+bundles = [
+  "1.6.1",
+]
