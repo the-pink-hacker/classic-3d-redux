@@ -1,5 +1,5 @@
 {
-    "parent": "block/cube",
+    "parent": "minecraft:block/cube",
     "textures": {
         "front_alt": "classic-3d/block/crafting_table_front",
         "side_alt": "classic-3d/block/crafting_table_side",

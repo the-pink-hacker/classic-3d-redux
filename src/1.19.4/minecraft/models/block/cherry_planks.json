@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/planks",
+    "textures": {
+        "all": "minecraft:block/cherry_planks"
+    }
+}
