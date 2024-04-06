@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/plank_stairs_east",
+    "textures": {
+        "all": "minecraft:block/acacia_planks"
+    }
+}
