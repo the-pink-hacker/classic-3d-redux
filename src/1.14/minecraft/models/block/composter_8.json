@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/composter_7",
+    "textures": {
+        "compost": "minecraft:block/composter_ready"
+    }
+}
