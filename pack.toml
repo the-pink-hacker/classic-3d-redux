@@ -1,15 +1,12 @@
 [pack]
-name = "Classic 3D"
-description = "Adds more detail to Minecraft's models."
-
-[pack.format]
-minimum = 14
-maximum = 31
+name = "Classic 3DR"
+description = "Classic Minecraft textures but with more complex 3D models."
 
 [profile.debug]
 output_type = "uncompressed"
 relocation = "symbolic"
 json_type = "pretty"
+pack.suffix = "[DEBUG]"
 
 [profile.release]
 output_type = "zip"
@@ -18,3 +15,8 @@ json_type = "compact"
 
 [build.1-20]
 bundles = ["1.8", "1.13", "1.14", "1.16", "1.19", "1.19.3", "1.19.4"]
+
+[build.1-20.pack]
+format.minimum = 14
+format.maximum = 35
+suffix = "1.20"
