@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/basic_door_top",
+    "textures": {
+        "top": "minecraft:block/oak_door_top"
+    }
+}

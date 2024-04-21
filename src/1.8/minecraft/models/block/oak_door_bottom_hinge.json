@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/basic_door_bottom_hinge",
+    "textures": {
+        "bottom": "minecraft:block/oak_door_bottom"
+    }
+}
