@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/copper_block",
+    "textures": {
+        "all": "minecraft:block/oxidized_copper"
+    }
+}
