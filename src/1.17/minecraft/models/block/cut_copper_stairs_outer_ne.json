@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/cut_copper_stairs_outer_ne",
+    "textures": {
+        "all": "minecraft:block/cut_copper"
+    }
+}
