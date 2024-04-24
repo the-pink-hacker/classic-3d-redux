@@ -1,0 +1,74 @@
+{
+    "textures": {
+        "compost": "block/composter_compost",
+        "side": "block/composter_side"
+    },
+    "elements": [
+        {
+            "from": [2, 15, 2],
+            "to": [14, 15, 14],
+            "faces": {
+                "up": {"uv": [2, 2, 14, 14], "texture": "#compost", "cullface": "up"}
+            }
+        },
+        {
+            "from": [2, 15, 2],
+            "to": [2.25, 16, 14],
+            "faces": {
+                "east": {"uv": [2, 0, 14, 1], "texture": "#side", "cullface": "up"},
+                "up": {"uv": [2, 0, 14, 1], "rotation": 270, "texture": "#side", "cullface": "up"}
+            }
+        },
+        {
+            "from": [2, 15, 13.75],
+            "to": [14, 16, 14],
+            "faces": {
+                "north": {"uv": [2, 0, 14, 1], "texture": "#side", "cullface": "up"},
+                "up": {"uv": [2, 0, 14, 1], "rotation": 180, "texture": "#side", "cullface": "up"}
+            }
+        },
+        {
+            "from": [13.75, 15, 2],
+            "to": [14, 16, 14],
+            "faces": {
+                "west": {"uv": [2, 0, 14, 1], "texture": "#side", "cullface": "up"},
+                "up": {"uv": [2, 0, 14, 1], "rotation": 90, "texture": "#side", "cullface": "up"}
+            }
+        },
+        {
+            "from": [2, 15, 2],
+            "to": [14, 16, 2.25],
+            "faces": {
+                "south": {"uv": [2, 0, 14, 1], "texture": "#side", "cullface": "up"},
+                "up": {"uv": [2, 0, 14, 1], "texture": "#side", "cullface": "up"}
+            }
+        }
+    ],
+    "groups": [
+        0,
+        {
+            "name": "west",
+            "origin": [8, 8, 8],
+            "color": 0,
+            "children": [1]
+        },
+        {
+            "name": "south",
+            "origin": [8, 8, 8],
+            "color": 0,
+            "children": [2]
+        },
+        {
+            "name": "east",
+            "origin": [8, 8, 8],
+            "color": 0,
+            "children": [3]
+        },
+        {
+            "name": "north",
+            "origin": [8, 8, 8],
+            "color": 0,
+            "children": [4]
+        }
+    ]
+}

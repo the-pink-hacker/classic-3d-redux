@@ -1,31 +1,88 @@
 {
-    "variants": {
-        "level=0": {
-            "model": "minecraft:block/composter_0"
+    "multipart": [
+        {
+            "apply": {
+                "model": "minecraft:block/composter"
+            }
         },
-        "level=1": {
-            "model": "minecraft:block/composter_1"
+        {
+            "apply": {
+                "model": "minecraft:block/composter_contents0"
+            },
+            "when": {
+                "level": "0"
+            }
         },
-        "level=2": {
-            "model": "minecraft:block/composter_2"
+        {
+            "apply": {
+                "model": "minecraft:block/composter_contents1"
+            },
+            "when": {
+                "level": "1"
+            }
         },
-        "level=3": {
-            "model": "minecraft:block/composter_3"
+        {
+            "apply": {
+                "model": "minecraft:block/composter_contents2"
+            },
+            "when": {
+                "level": "2"
+            }
         },
-        "level=4": {
-            "model": "minecraft:block/composter_4"
+        {
+            "apply": {
+                "model": "minecraft:block/composter_contents3"
+            },
+            "when": {
+                "level": "3"
+            }
         },
-        "level=5": {
-            "model": "minecraft:block/composter_5"
+        {
+            "apply": {
+                "model": "minecraft:block/composter_contents4"
+            },
+            "when": {
+                "level": "4"
+            }
         },
-        "level=6": {
-            "model": "minecraft:block/composter_6"
+        {
+            "apply": {
+                "model": "minecraft:block/composter_contents5"
+            },
+            "when": {
+                "level": "5"
+            }
         },
-        "level=7": {
-            "model": "minecraft:block/composter_7"
+        {
+            "apply": {
+                "model": "minecraft:block/composter_contents6"
+            },
+            "when": {
+                "level": "6"
+            }
         },
-        "level=8": {
-            "model": "minecraft:block/composter_8"
+        {
+            "apply": {
+                "model": "minecraft:block/composter_contents7"
+            },
+            "when": {
+                "OR": [
+                    {
+                        "level": "7"
+                    },
+                    {
+                        "level": "8"
+                    }
+                ]
+            }
+        },
+        {
+            "apply": {
+                "model": "minecraft:block/composter_ready"
+            },
+            "when": {
+                "level": "8"
+            }
         }
-    }
+    ]
 }
