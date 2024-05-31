@@ -10,7 +10,7 @@ pack.suffix = "[DEBUG]"
 
 [profile.release]
 output_type = "zip"
-relocation = "copy"
+relocation = "symbolic"
 json_type = "compact"
 
 [build.1-20]
@@ -28,5 +28,5 @@ bundles = [
 
 [build.1-20.pack]
 format.minimum = 14
-format.maximum = 35
-suffix = "1.20"
+format.maximum = 32
+suffix = "1-20"
