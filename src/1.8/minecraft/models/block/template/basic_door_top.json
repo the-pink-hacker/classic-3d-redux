@@ -1,8 +1,5 @@
 {
-    "ambientocclusion": false,
-    "textures": {
-        "particle": "#top"
-    },
+    "parent": "minecraft:block/door_top",
     "elements": [
         {
             "from": [0, 0, 0],

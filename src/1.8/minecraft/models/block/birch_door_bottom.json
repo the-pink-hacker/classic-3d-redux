@@ -1,7 +1,6 @@
 {
-    "ambientocclusion": false,
+    "parent": "minecraft:block/door_bottom",
     "textures": {
-        "particle": "block/birch_door_bottom",
         "bottom": "block/birch_door_bottom"
     },
     "elements": [
