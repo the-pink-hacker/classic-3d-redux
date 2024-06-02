@@ -21,7 +21,7 @@
                         "facing": "east"
                     },
                     {
-                        "slot_2_occupied": "true"
+                        "slot_2_occupied": true
                     }
                 ]
             }
@@ -37,7 +37,7 @@
                         "facing": "east"
                     },
                     {
-                        "slot_4_occupied": "true"
+                        "slot_4_occupied": true
                     }
                 ]
             }
@@ -53,7 +53,7 @@
                         "facing": "east"
                     },
                     {
-                        "slot_0_occupied": "true"
+                        "slot_0_occupied": true
                     }
                 ]
             }
@@ -69,7 +69,7 @@
                         "facing": "east"
                     },
                     {
-                        "slot_5_occupied": "true"
+                        "slot_5_occupied": true
                     }
                 ]
             }
@@ -85,7 +85,7 @@
                         "facing": "east"
                     },
                     {
-                        "slot_3_occupied": "true"
+                        "slot_3_occupied": true
                     }
                 ]
             }
@@ -101,7 +101,7 @@
                         "facing": "east"
                     },
                     {
-                        "slot_1_occupied": "true"
+                        "slot_1_occupied": true
                     }
                 ]
             }
@@ -127,7 +127,7 @@
                         "facing": "west"
                     },
                     {
-                        "slot_2_occupied": "true"
+                        "slot_2_occupied": true
                     }
                 ]
             }
@@ -143,7 +143,7 @@
                         "facing": "west"
                     },
                     {
-                        "slot_4_occupied": "true"
+                        "slot_4_occupied": true
                     }
                 ]
             }
@@ -159,7 +159,7 @@
                         "facing": "west"
                     },
                     {
-                        "slot_0_occupied": "true"
+                        "slot_0_occupied": true
                     }
                 ]
             }
@@ -175,7 +175,7 @@
                         "facing": "west"
                     },
                     {
-                        "slot_5_occupied": "true"
+                        "slot_5_occupied": true
                     }
                 ]
             }
@@ -191,7 +191,7 @@
                         "facing": "west"
                     },
                     {
-                        "slot_3_occupied": "true"
+                        "slot_3_occupied": true
                     }
                 ]
             }
@@ -207,7 +207,7 @@
                         "facing": "west"
                     },
                     {
-                        "slot_1_occupied": "true"
+                        "slot_1_occupied": true
                     }
                 ]
             }
@@ -233,7 +233,7 @@
                         "facing": "south"
                     },
                     {
-                        "slot_2_occupied": "true"
+                        "slot_2_occupied": true
                     }
                 ]
             }
@@ -249,7 +249,7 @@
                         "facing": "south"
                     },
                     {
-                        "slot_4_occupied": "true"
+                        "slot_4_occupied": true
                     }
                 ]
             }
@@ -265,7 +265,7 @@
                         "facing": "south"
                     },
                     {
-                        "slot_0_occupied": "true"
+                        "slot_0_occupied": true
                     }
                 ]
             }
@@ -281,7 +281,7 @@
                         "facing": "south"
                     },
                     {
-                        "slot_5_occupied": "true"
+                        "slot_5_occupied": true
                     }
                 ]
             }
@@ -297,7 +297,7 @@
                         "facing": "south"
                     },
                     {
-                        "slot_3_occupied": "true"
+                        "slot_3_occupied": true
                     }
                 ]
             }
@@ -313,7 +313,7 @@
                         "facing": "south"
                     },
                     {
-                        "slot_1_occupied": "true"
+                        "slot_1_occupied": true
                     }
                 ]
             }
@@ -339,7 +339,7 @@
                         "facing": "north"
                     },
                     {
-                        "slot_2_occupied": "true"
+                        "slot_2_occupied": true
                     }
                 ]
             }
@@ -355,7 +355,7 @@
                         "facing": "north"
                     },
                     {
-                        "slot_4_occupied": "true"
+                        "slot_4_occupied": true
                     }
                 ]
             }
@@ -371,7 +371,7 @@
                         "facing": "north"
                     },
                     {
-                        "slot_0_occupied": "true"
+                        "slot_0_occupied": true
                     }
                 ]
             }
@@ -387,7 +387,7 @@
                         "facing": "north"
                     },
                     {
-                        "slot_5_occupied": "true"
+                        "slot_5_occupied": true
                     }
                 ]
             }
@@ -403,7 +403,7 @@
                         "facing": "north"
                     },
                     {
-                        "slot_3_occupied": "true"
+                        "slot_3_occupied": true
                     }
                 ]
             }
@@ -419,7 +419,7 @@
                         "facing": "north"
                     },
                     {
-                        "slot_1_occupied": "true"
+                        "slot_1_occupied": true
                     }
                 ]
             }
