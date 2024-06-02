@@ -30,3 +30,20 @@ bundles = [
 format.minimum = 14
 format.maximum = 32
 suffix = "1-20"
+
+[build.1-19]
+bundles = [
+    "1.8",
+    "1.9",
+    "1.13",
+    "1.14",
+    "1.16",
+    "1.17",
+    "1.19",
+    "1.19.3",
+    "1.19.4",
+]
+
+[build.1-19.pack]
+format = 13
+suffix = "1-19"
