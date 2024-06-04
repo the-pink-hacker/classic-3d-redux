@@ -1,17 +1,34 @@
-[pack]
-name = "Classic 3DR"
-description = "Classic Minecraft textures but with more complex 3D models."
+[pack.name]
+type = "text"
+text = "Classic 3D"
+color = "gold"
+bold = true
+
+[pack.description]
+type = "text"
+text = "Classic Minecraft look & feel with revamped 3D models"
+color = "aqua"
 
 [profile.debug]
 output_type = "uncompressed"
 relocation = "symbolic"
 json_type = "pretty"
-pack.suffix = "[DEBUG]"
+
+[profile.debug.pack.suffix]
+type = "text"
+text = " DEBUG"
+color = "red"
+bold = true
 
 [profile.release]
 output_type = "zip"
 relocation = "symbolic"
 json_type = "compact"
+
+[profile.release.pack.suffix]
+type = "text"
+text = " v0.1.0A"
+color = "red"
 
 [build.1-20]
 bundles = [
@@ -30,7 +47,11 @@ bundles = [
 [build.1-20.pack]
 format.minimum = 14
 format.maximum = 32
-suffix = "1-20"
+
+[build.1-20.pack.suffix]
+type = "text"
+text = " 1-20"
+color = "yellow"
 
 [build.1-19]
 bundles = [
@@ -48,4 +69,8 @@ bundles = [
 
 [build.1-19.pack]
 format = 13
-suffix = "1-19"
+
+[build.1-19.pack.suffix]
+type = "text"
+text = "1-19"
+color = "yellow"
