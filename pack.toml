@@ -30,6 +30,8 @@ type = "text"
 text = " v0.1.0A"
 color = "red"
 
+# 1.20
+
 [build.1-20]
 bundles = [
     "<=1.12.2->=1.19",
@@ -53,6 +55,8 @@ type = "text"
 text = " 1-20"
 color = "yellow"
 
+# 1.19
+
 [build.1-19]
 bundles = [
     "<=1.12.2->=1.19",
@@ -72,5 +76,148 @@ format = 13
 
 [build.1-19.pack.suffix]
 type = "text"
-text = "1-19"
+text = " 1-19"
+color = "yellow"
+
+# 1.18
+
+[build.1-18]
+bundles = ["1.8", "1.9", "1.13", "1.14", "1.16", "1.17"]
+
+[build.1-18.pack]
+format = 8
+
+[build.1-18.pack.suffix]
+type = "text"
+text = " 1-18"
+color = "yellow"
+
+# 1.18
+
+[build.1-17]
+bundles = ["1.8", "1.9", "1.13", "1.14", "1.16", "1.17"]
+
+[build.1-17.pack]
+format = 7
+
+[build.1-17.pack.suffix]
+type = "text"
+text = " 1-17"
+color = "yellow"
+
+# 1.16
+
+[build.1-16]
+bundles = ["1.8", "1.9", "1.13", "1.14", "1.16"]
+
+[build.1-16.pack]
+format = 6
+
+[build.1-16.pack.suffix]
+type = "text"
+text = " 1-16"
+color = "yellow"
+
+# 1.15
+
+[build.1-15]
+bundles = ["1.8", "1.9", "1.13", "1.14"]
+
+[build.1-15.pack]
+format = 5
+
+[build.1-15.pack.suffix]
+type = "text"
+text = " 1-15"
+color = "yellow"
+
+# 1.14
+
+[build.1-14]
+bundles = ["1.8", "1.9", "1.13", "1.14"]
+
+[build.1-14.pack]
+format = 4
+
+[build.1-14.pack.suffix]
+type = "text"
+text = " 1-14"
+color = "yellow"
+
+# 1.13
+
+[build.1-13]
+bundles = ["1.8", "1.9", "1.13"]
+
+[build.1-13.pack]
+format = 4
+
+[build.1-13.pack.suffix]
+type = "text"
+text = " 1-13"
+color = "yellow"
+
+# 1.12
+
+[build.1-12]
+bundles = ["<=1.12.2->=1.19", "1.8", "1.9"]
+
+[build.1-12.pack]
+format = 3
+
+[build.1-12.pack.suffix]
+type = "text"
+text = " 1-12"
+color = "yellow"
+
+# 1.11
+
+[build.1-11]
+bundles = ["<=1.12.2->=1.19", "1.8", "1.9"]
+
+[build.1-11.pack]
+format = 3
+
+[build.1-11.pack.suffix]
+type = "text"
+text = " 1-11"
+color = "yellow"
+
+# 1.10
+
+[build.1-10]
+bundles = ["<=1.12.2->=1.19", "1.8", "1.9"]
+
+[build.1-10.pack]
+format = 2
+
+[build.1-10.pack.suffix]
+type = "text"
+text = " 1-10"
+color = "yellow"
+
+# 1.9
+
+[build.1-9]
+bundles = ["<=1.12.2->=1.19", "1.8", "1.9"]
+
+[build.1-9.pack]
+format = 2
+
+[build.1-9.pack.suffix]
+type = "text"
+text = " 1-9"
+color = "yellow"
+
+# 1.8
+
+[build.1-8]
+bundles = ["<=1.12.2->=1.19", "1.8"]
+
+[build.1-8.pack]
+format = 1
+
+[build.1-8.pack.suffix]
+type = "text"
+text = " 1-8"
 color = "yellow"
