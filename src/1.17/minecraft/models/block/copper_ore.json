@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/copper_ore",
+    "textures": {
+        "all": "minecraft:block/copper_ore"
+    }
+}
