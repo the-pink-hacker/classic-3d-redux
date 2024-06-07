@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/copper_door_bottom_right_open",
+    "textures": {
+        "bottom": "minecraft:block/oxidized_copper_door_bottom"
+    }
+}
