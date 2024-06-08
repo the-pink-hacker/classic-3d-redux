@@ -1,3 +1,6 @@
+[pack]
+icon = "pack.png"
+
 [pack.name]
 type = "text"
 text = "Classic 3D"
@@ -24,6 +27,7 @@ bold = true
 output_type = "zip"
 relocation = "symbolic"
 json_type = "compact"
+pack.license = "LICENSE.md"
 
 [profile.release.pack.suffix]
 type = "text"
