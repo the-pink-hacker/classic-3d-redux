@@ -1,0 +1,5 @@
+[redirect]
+affect = "path"
+asset_type = "texture"
+from = "minecraft:block"
+to = "minecraft:blocks"

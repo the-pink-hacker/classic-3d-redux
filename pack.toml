@@ -57,7 +57,7 @@ format.maximum = 34
 
 [build.1-21.pack.suffix]
 type = "text"
-text = " 1-21"
+text = " 1.21"
 color = "yellow"
 
 # 1.20
@@ -83,7 +83,7 @@ format.maximum = 32
 
 [build.1-20.pack.suffix]
 type = "text"
-text = " 1-20"
+text = " 1.20"
 color = "yellow"
 
 # 1.19
@@ -107,7 +107,7 @@ format = 13
 
 [build.1-19.pack.suffix]
 type = "text"
-text = " 1-19"
+text = " 1.19"
 color = "yellow"
 
 # 1.18
@@ -120,7 +120,7 @@ format = 8
 
 [build.1-18.pack.suffix]
 type = "text"
-text = " 1-18"
+text = " 1.18"
 color = "yellow"
 
 # 1.18
@@ -133,7 +133,7 @@ format = 7
 
 [build.1-17.pack.suffix]
 type = "text"
-text = " 1-17"
+text = " 1.17"
 color = "yellow"
 
 # 1.16
@@ -146,7 +146,7 @@ format = 6
 
 [build.1-16.pack.suffix]
 type = "text"
-text = " 1-16"
+text = " 1.16"
 color = "yellow"
 
 # 1.15
@@ -159,7 +159,7 @@ format = 5
 
 [build.1-15.pack.suffix]
 type = "text"
-text = " 1-15"
+text = " 1.15"
 color = "yellow"
 
 # 1.14
@@ -172,7 +172,7 @@ format = 4
 
 [build.1-14.pack.suffix]
 type = "text"
-text = " 1-14"
+text = " 1.14"
 color = "yellow"
 
 # 1.13
@@ -185,70 +185,75 @@ format = 4
 
 [build.1-13.pack.suffix]
 type = "text"
-text = " 1-13"
+text = " 1.13"
 color = "yellow"
 
 # 1.12
 
 [build.1-12]
 bundles = ["<=1.12.2->=1.19", "1.8", "1.9"]
+redirects = ["old_textures"]
 
 [build.1-12.pack]
 format = 3
 
 [build.1-12.pack.suffix]
 type = "text"
-text = " 1-12"
+text = " 1.12"
 color = "yellow"
 
 # 1.11
 
 [build.1-11]
 bundles = ["<=1.12.2->=1.19", "1.8", "1.9"]
+redirects = ["old_textures"]
 
 [build.1-11.pack]
 format = 3
 
 [build.1-11.pack.suffix]
 type = "text"
-text = " 1-11"
+text = " 1.11"
 color = "yellow"
 
 # 1.10
 
 [build.1-10]
 bundles = ["<=1.12.2->=1.19", "1.8", "1.9"]
+redirects = ["old_textures"]
 
 [build.1-10.pack]
 format = 2
 
 [build.1-10.pack.suffix]
 type = "text"
-text = " 1-10"
+text = " 1.10"
 color = "yellow"
 
 # 1.9
 
 [build.1-9]
 bundles = ["<=1.12.2->=1.19", "1.8", "1.9"]
+redirects = ["old_textures"]
 
 [build.1-9.pack]
 format = 2
 
 [build.1-9.pack.suffix]
 type = "text"
-text = " 1-9"
+text = " 1.9"
 color = "yellow"
 
 # 1.8
 
 [build.1-8]
 bundles = ["<=1.12.2->=1.19", "1.8"]
+redirects = ["old_textures"]
 
 [build.1-8.pack]
 format = 1
 
 [build.1-8.pack.suffix]
 type = "text"
-text = " 1-8"
+text = " 1.8"
 color = "yellow"
