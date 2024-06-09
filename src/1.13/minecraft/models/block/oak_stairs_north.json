@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/plank_stairs_north",
+    "textures": {
+        "all": "minecraft:block/oak_planks"
+    }
+}

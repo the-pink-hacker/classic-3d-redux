@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:block/template/plank_stairs_north",
     "textures": {
-        "all": "minecraft:block/jungle_planks"
+        "all": "minecraft:block/planks_jungle"
     }
 }

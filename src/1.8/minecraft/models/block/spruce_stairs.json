@@ -1,3 +1,6 @@
 {
-    "parent": "minecraft:block/spruce_stairs_east"
+    "parent": "minecraft:block/template/plank_stairs_east",
+    "textures": {
+        "all": "minecraft:block/planks_spruce"
+    }
 }

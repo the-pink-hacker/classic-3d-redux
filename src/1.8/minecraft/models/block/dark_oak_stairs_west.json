@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:block/template/plank_stairs_west",
     "textures": {
-        "all": "minecraft:block/dark_oak_planks"
+        "all": "minecraft:block/planks_big_oak"
     }
 }

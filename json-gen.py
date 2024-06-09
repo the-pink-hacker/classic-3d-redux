@@ -10,25 +10,45 @@ def generate_model_all(texture: str, parent: str, texture_name = "all") -> dict:
     }
 
 def main():
-    model = "copper_door_top_"
+    model = "spruce_stairs_"
 
-    parent = "copper_door_top_"
+    parent = "plank_stairs_"
 
     model_suffixes = [
-        "right",
-        "right_open",
-        "left",
-        "left_open",
+        "north",
+        "east",
+        "south",
+        "west",
+        "inner_ne",
+        "inner_nw",
+        "inner_se",
+        "inner_sw",
+        "outer_ne",
+        "outer_nw",
+        "outer_se",
+        "outer_sw",
+        "top_north",
+        "top_east",
+        "top_south",
+        "top_west",
+        "top_inner_ne",
+        "top_inner_nw",
+        "top_inner_se",
+        "top_inner_sw",
+        "top_outer_ne",
+        "top_outer_nw",
+        "top_outer_se",
+        "top_outer_sw",
     ]
 
-    model_folder = "src/1.20.3/minecraft/models/block/"
+    model_folder = "src/1.8/minecraft/models/block/"
     parent_model_id_path = "minecraft:block/template/"
-    texture_id = "minecraft:block/copper_door_top"
+    texture_id = "minecraft:block/planks_spruce"
 
     for model_suffix in model_suffixes:
         model_file = f"{model_folder}{model}{model_suffix}.json"
         parent_model_id = f"{parent_model_id_path}{parent}{model_suffix}"
-        model_data = generate_model_all(texture_id, parent_model_id, "top")
+        model_data = generate_model_all(texture_id, parent_model_id)
 
         with open(model_file, "w") as file:
             json.dump(model_data, file, indent=4)

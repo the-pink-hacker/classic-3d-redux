@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:block/template/planks",
     "textures": {
-        "all": "minecraft:block/acacia_planks"
+        "all": "minecraft:block/planks_acacia"
     }
 }

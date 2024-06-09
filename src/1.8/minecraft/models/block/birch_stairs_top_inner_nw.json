@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:block/template/plank_stairs_top_inner_nw",
     "textures": {
-        "all": "minecraft:block/birch_planks"
+        "all": "minecraft:block/planks_birch"
     }
 }
