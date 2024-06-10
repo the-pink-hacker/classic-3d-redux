@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/stone_bricks",
+    "textures": {
+        "all": "minecraft:block/stone_bricks"
+    }
+}

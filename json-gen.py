@@ -10,9 +10,9 @@ def generate_model_all(texture: str, parent: str, texture_name = "all") -> dict:
     }
 
 def main():
-    model = "spruce_stairs_"
+    model = "tuff_brick_stairs_"
 
-    parent = "plank_stairs_"
+    parent = "stone_brick_stairs_"
 
     model_suffixes = [
         "north",
@@ -41,9 +41,9 @@ def main():
         "top_outer_sw",
     ]
 
-    model_folder = "src/1.8/minecraft/models/block/"
+    model_folder = "src/bundles/1.20.3/minecraft/models/block/"
     parent_model_id_path = "minecraft:block/template/"
-    texture_id = "minecraft:block/planks_spruce"
+    texture_id = "minecraft:block/tuff_bricks"
 
     for model_suffix in model_suffixes:
         model_file = f"{model_folder}{model}{model_suffix}.json"

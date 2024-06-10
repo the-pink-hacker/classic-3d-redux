@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/stone_brick_slab_top",
+    "textures": {
+        "all": "minecraft:block/tuff_bricks"
+    }
+}

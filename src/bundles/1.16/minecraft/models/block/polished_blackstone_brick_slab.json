@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/stone_brick_slab",
+    "textures": {
+        "all": "minecraft:block/polished_blackstone_bricks"
+    }
+}

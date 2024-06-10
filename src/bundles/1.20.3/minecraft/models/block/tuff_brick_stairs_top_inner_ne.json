@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/stone_brick_stairs_top_inner_ne",
+    "textures": {
+        "all": "minecraft:block/tuff_bricks"
+    }
+}
