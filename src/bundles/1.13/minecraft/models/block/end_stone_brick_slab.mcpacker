@@ -4,18 +4,19 @@
         "all": "minecraft:block/end_stone_bricks"
     },
     "import": {
-        "center": "minecraft:block/template/cube_all#virtual",
-        "face": "minecraft:block/end_stone_bricks_face#virtual"
+        "center": "minecraft:block/template/slab_all#virtual",
+        "face": "minecraft:block/end_stone_bricks_face#virtual",
+        "side": "minecraft:block/end_stone_bricks_face_half_bottom#virtual"
     },
     "composition": [
         {
             "model": "#center"
         },
         {
-            "model": "#face"
+            "model": "#side"
         },
         {
-            "model": "#face",
+            "model": "#side",
             "transformations": [
                 {
                     "type": "rotate",
@@ -24,7 +25,7 @@
             ]
         },
         {
-            "model": "#face",
+            "model": "#side",
             "transformations": [
                 {
                     "type": "rotate",
@@ -33,7 +34,7 @@
             ]
         },
         {
-            "model": "#face",
+            "model": "#side",
             "transformations": [
                 {
                     "type": "rotate",
@@ -43,11 +44,20 @@
         },
         {
             "model": "#face",
+            "cullface": "none",
             "transformations": [
                 {
                     "type": "rotate",
                     "x": 90,
                     "y": 180
+                },
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        -8,
+                        0
+                    ]
                 }
             ]
         },
