@@ -1,22 +1,25 @@
 {
-    "parent": "minecraft:block/template/slab_all",
+    "parent": "minecraft:block/template/stairs_all",
     "textures": {
         "all": "minecraft:block/end_stone_bricks"
     },
     "import": {
-        "center": "minecraft:block/template/slab_all#virtual",
+        "center": "minecraft:block/template/stairs_all#virtual",
         "face": "minecraft:block/end_stone_bricks_face#virtual",
-        "side": "minecraft:block/end_stone_bricks_face_half_bottom#virtual"
+        "half_top": "minecraft:block/end_stone_bricks_face_half_top#virtual",
+        "half_bottom": "minecraft:block/end_stone_bricks_face_half_bottom#virtual",
+        "side_left": "minecraft:block/end_stone_bricks_face_l1#virtual",
+        "side_right": "minecraft:block/end_stone_bricks_face_l2#virtual"
     },
     "composition": [
         {
             "model": "#center"
         },
         {
-            "model": "#side"
+            "model": "#face"
         },
         {
-            "model": "#side",
+            "model": "#side_left",
             "transformations": [
                 {
                     "type": "rotate",
@@ -25,7 +28,25 @@
             ]
         },
         {
-            "model": "#side",
+            "model": "#half_top",
+            "cullface": "none",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 180
+                },
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        -8
+                    ]
+                }
+            ]
+        },
+        {
+            "model": "#half_bottom",
             "transformations": [
                 {
                     "type": "rotate",
@@ -34,7 +55,7 @@
             ]
         },
         {
-            "model": "#side",
+            "model": "#side_right",
             "transformations": [
                 {
                     "type": "rotate",
@@ -43,7 +64,17 @@
             ]
         },
         {
-            "model": "#face",
+            "model": "#half_top",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 90,
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#half_bottom",
             "cullface": "none",
             "transformations": [
                 {
