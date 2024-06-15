@@ -1,0 +1,40 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "minecraft:block/end_stone_bricks"
+    },
+    "import": {
+        "cube": "minecraft:block/template/cube_all#virtual",
+        "face": "minecraft:block/end_stone_bricks_face#virtual"
+    },
+    "composition": [
+        {
+            "model": "#cube"
+        },
+        {
+            "model": "#face"
+        },
+        {
+            "model": "#face",
+            "y": 90
+        },
+        {
+            "model": "#face",
+            "y": 180
+        },
+        {
+            "model": "#face",
+            "y": 270
+        },
+        {
+            "model": "#face",
+            "x": 90,
+            "y": 180
+        },
+        {
+            "model": "#face",
+            "x": 270,
+            "y": 180
+        }
+    ]
+}
