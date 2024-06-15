@@ -1,0 +1,116 @@
+{
+    "parent": "minecraft:block/template/stairs_all",
+    "textures": {
+        "all": "minecraft:block/end_stone_bricks"
+    },
+    "import": {
+        "center": "minecraft:block/template/stairs_all_inner#virtual",
+        "face": "minecraft:block/end_stone_bricks_face#virtual",
+        "quarter_left": "minecraft:block/end_stone_bricks_face_q1#virtual",
+        "quarter_right": "minecraft:block/end_stone_bricks_face_q2#virtual",
+        "quarter_top": "minecraft:block/end_stone_bricks_face_q4#virtual",
+        "side_left": "minecraft:block/end_stone_bricks_face_l1#virtual",
+        "side_right": "minecraft:block/end_stone_bricks_face_l2#virtual",
+        "top": "minecraft:block/end_stone_bricks_face_l4#virtual"
+    },
+    "composition": [
+        {
+            "model": "#center"
+        },
+        {
+            "model": "#face"
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "model": "#side_left",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#quarter_left",
+            "cullface": "none",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 180
+                },
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        -8
+                    ]
+                }
+            ]
+        },
+        {
+            "model": "#side_right",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "model": "#quarter_right",
+            "cullface": "none",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 270
+                },
+                {
+                    "type": "translate",
+                    "amount": [
+                        -8,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "model": "#top",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 90,
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#quarter_top",
+            "cullface": "none",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 90,
+                    "y": 180
+                },
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        -8,
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
