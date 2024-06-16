@@ -1,0 +1,129 @@
+{
+    "parent": "minecraft:block/template/stairs_all",
+    "textures": {
+        "all": "minecraft:block/end_stone_bricks"
+    },
+    "import": {
+        "center": "minecraft:block/template/stairs_all_outer#virtual",
+        "face": "minecraft:block/end_stone_bricks_face#virtual",
+        "quarter_left": "minecraft:block/end_stone_bricks_face_q3#virtual",
+        "quarter_right": "minecraft:block/end_stone_bricks_face_q4#virtual",
+        "quarter_bottom": "minecraft:block/end_stone_bricks_face_q2#virtual",
+        "side_front": "minecraft:block/end_stone_bricks_face_half_top#virtual",
+        "side_left": "minecraft:block/end_stone_bricks_face_l4#virtual",
+        "side_right": "minecraft:block/end_stone_bricks_face_l3#virtual",
+        "bottom": "minecraft:block/end_stone_bricks_face_l2#virtual"
+    },
+    "composition": [
+        {
+            "model": "#center",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 180
+                }
+            ]
+        },
+        {
+            "model": "#side_right",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "model": "#side_left",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#side_front",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "model": "#quarter_left",
+            "cullface": "none",
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        8
+                    ]
+                },
+                {
+                    "type": "rotate",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "model": "#side_front"
+        },
+        {
+            "model": "#quarter_right",
+            "cullface": "none",
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        8
+                    ]
+                }
+            ]
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 90,
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#quarter_bottom",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 270,
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#bottom",
+            "cullface": "none",
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        8
+                    ]
+                },
+                {
+                    "type": "rotate",
+                    "x": 270,
+                    "y": 180
+                }
+            ]
+        }
+    ]
+}
