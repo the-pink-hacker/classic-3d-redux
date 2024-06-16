@@ -31,7 +31,7 @@ pack.license = "LICENSE.md"
 
 [profile.release.pack.suffix]
 type = "text"
-text = " v2.0.0-A.1"
+text = " v2.0.0-A.2"
 color = "red"
 
 # 1.21
