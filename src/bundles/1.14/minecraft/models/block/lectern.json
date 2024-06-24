@@ -1,0 +1,49 @@
+{
+    "import": {
+        "center": "minecraft:block/template/lectern",
+        "bottom": "minecraft:block/template/planks_face",
+        "base": {
+            "parent": "minecraft:block/block",
+            "display": {
+                "firstperson_righthand": {
+                    "rotation": [
+                        0,
+                        135,
+                        0
+                    ],
+                    "translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        0.4,
+                        0.4,
+                        0.4
+                    ]
+                }
+            }
+        }
+    },
+    "composition": [
+        {
+            "model": "#base"
+        },
+        {
+            "model": "#center"
+        },
+        {
+            "model": "#bottom",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 270,
+                    "y": 180
+                }
+            ],
+            "textures": {
+                "all": "#bottom"
+            }
+        }
+    ]
+}
