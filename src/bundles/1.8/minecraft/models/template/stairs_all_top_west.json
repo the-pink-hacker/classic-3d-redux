@@ -1,0 +1,108 @@
+{
+    "virtual": true,
+    "import": {
+        "center": "minecraft:template/stairs_all"
+    },
+    "composition": [
+        {
+            "model": "#textures"
+        },
+        {
+            "model": "#center",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 90,
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "model": "#side_left",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#half_top",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "model": "#half_bottom",
+            "cullface": "none",
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        8
+                    ]
+                },
+                {
+                    "type": "rotate",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "model": "#side_right"
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 90,
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#half_left",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 270,
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#half_right",
+            "cullface": "none",
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        8
+                    ]
+                },
+                {
+                    "type": "rotate",
+                    "x": 270,
+                    "y": 180
+                }
+            ]
+        }
+    ]
+}

@@ -2,6 +2,7 @@
     "mcpacker": {
         "virtual": true
     },
+    "parent": "minecraft:block/template/outer_stairs_all",
     "elements": [
         {
             "from": [0, 0, 0],

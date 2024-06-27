@@ -1,0 +1,107 @@
+{
+    "virtual": true,
+    "import": {
+        "center": {
+            "parent": "minecraft:block/cube_all",
+            "elements": [
+                {
+                    "from": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "to": [
+                        16,
+                        16,
+                        16
+                    ],
+                    "faces": {
+                        "down": {
+                            "texture": "#all",
+                            "cullface": "down"
+                        },
+                        "up": {
+                            "texture": "#all",
+                            "cullface": "up"
+                        },
+                        "north": {
+                            "texture": "#all",
+                            "cullface": "north"
+                        },
+                        "south": {
+                            "texture": "#all",
+                            "cullface": "south"
+                        },
+                        "west": {
+                            "texture": "#all",
+                            "cullface": "west"
+                        },
+                        "east": {
+                            "texture": "#all",
+                            "cullface": "east"
+                        }
+                    }
+                }
+            ]
+        },
+        "face": "minecraft:block/template/end_stone_bricks_face"
+    },
+    "composition": [
+        {
+            "model": "#textures"
+        },
+        {
+            "model": "#center"
+        },
+        {
+            "model": "#face"
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 90,
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 270,
+                    "y": 180
+                }
+            ]
+        }
+    ]
+}

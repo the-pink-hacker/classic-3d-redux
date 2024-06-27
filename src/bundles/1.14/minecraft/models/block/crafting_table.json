@@ -1,15 +1,9 @@
 {
     "import": {
-        "center": "minecraft:block/template/crafting_table",
-        "bottom": "minecraft:block/template/planks_face",
-        "base": {
-            "parent": "minecraft:block/cube"
-        }
+        "center": "minecraft:template/crafting_table",
+        "bottom": "minecraft:template/face/planks"
     },
     "composition": [
-        {
-            "model": "#base"
-        },
         {
             "model": "#center"
         },

@@ -1,0 +1,114 @@
+{
+    "virtual": true,
+    "import": {
+        "center": {
+            "parent": "minecraft:block/template/slab_all",
+            "elements": [
+                {
+                    "from": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "to": [
+                        16,
+                        8,
+                        16
+                    ],
+                    "faces": {
+                        "north": {
+                            "texture": "#all",
+                            "cullface": "north"
+                        },
+                        "east": {
+                            "texture": "#all",
+                            "cullface": "east"
+                        },
+                        "south": {
+                            "texture": "#all",
+                            "cullface": "south"
+                        },
+                        "west": {
+                            "texture": "#all",
+                            "cullface": "west"
+                        },
+                        "up": {
+                            "texture": "#all"
+                        },
+                        "down": {
+                            "texture": "#all",
+                            "cullface": "down"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "composition": [
+        {
+            "model": "#textures"
+        },
+        {
+            "model": "#center"
+        },
+        {
+            "model": "#side"
+        },
+        {
+            "model": "#side",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "model": "#side",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#side",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "model": "#face",
+            "cullface": "none",
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        8
+                    ]
+                },
+                {
+                    "type": "rotate",
+                    "x": 90,
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 270,
+                    "y": 180
+                }
+            ]
+        }
+    ]
+}

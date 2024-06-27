@@ -2,6 +2,7 @@
     "mcpacker": {
         "virtual": true
     },
+    "parent": "minecraft:block/block",
     "textures": {
         "bottom": "block/oak_planks",
         "base": "block/lectern_base",
@@ -101,5 +102,24 @@
                 "up": {"uv": [5, 12, 11, 16], "rotation": 180, "texture": "#base"}
             }
         }
-    ]
+    ],
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                135,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                0.4,
+                0.4,
+                0.4
+            ]
+        }
+    }
 }

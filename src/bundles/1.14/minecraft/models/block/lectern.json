@@ -1,34 +1,9 @@
 {
     "import": {
-        "center": "minecraft:block/template/lectern",
-        "bottom": "minecraft:block/template/planks_face",
-        "base": {
-            "parent": "minecraft:block/block",
-            "display": {
-                "firstperson_righthand": {
-                    "rotation": [
-                        0,
-                        135,
-                        0
-                    ],
-                    "translation": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "scale": [
-                        0.4,
-                        0.4,
-                        0.4
-                    ]
-                }
-            }
-        }
+        "center": "minecraft:template/lectern",
+        "bottom": "minecraft:template/face/planks"
     },
     "composition": [
-        {
-            "model": "#base"
-        },
         {
             "model": "#center"
         },

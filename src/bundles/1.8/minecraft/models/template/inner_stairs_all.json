@@ -2,6 +2,7 @@
     "mcpacker": {
         "virtual": true
     },
+    "parent": "minecraft:block/template/inner_stairs_all",
     "elements": [
         {
             "from": [0, 0, 0],
@@ -22,6 +23,16 @@
                 "north": {"texture": "#all", "cullface": "north"},
                 "east": {"texture": "#all", "cullface": "east"},
                 "south": {"texture": "#all"},
+                "west": {"texture": "#all", "cullface": "west"},
+                "up": {"texture": "#all", "cullface": "up"}
+            }
+        },
+        {
+            "from": [0, 8, 8],
+            "to": [8, 16, 16],
+            "faces": {
+                "east": {"texture": "#all"},
+                "south": {"texture": "#all", "cullface": "south"},
                 "west": {"texture": "#all", "cullface": "west"},
                 "up": {"texture": "#all", "cullface": "up"}
             }

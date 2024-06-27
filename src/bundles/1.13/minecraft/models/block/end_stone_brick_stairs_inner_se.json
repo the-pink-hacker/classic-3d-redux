@@ -1,121 +1,17 @@
 {
     "import": {
-        "center": "minecraft:block/template/inner_stairs_all#virtual",
-        "face": "minecraft:block/template/end_stone_bricks_face",
-        "quarter_left": "minecraft:block/template/end_stone_bricks_face_q1",
-        "quarter_right": "minecraft:block/template/end_stone_bricks_face_q2",
-        "quarter_top": "minecraft:block/template/end_stone_bricks_face_q4",
-        "side_left": "minecraft:block/template/end_stone_bricks_face_l1",
-        "side_right": "minecraft:block/template/end_stone_bricks_face_l2",
-        "top": "minecraft:block/template/end_stone_bricks_face_l4",
-        "base": {
-            "parent": "minecraft:block/template/stairs_all",
+        "face": "minecraft:template/face/end_stone_bricks",
+        "quarter_left": "minecraft:template/face/end_stone_bricks_q1",
+        "quarter_right": "minecraft:template/face/end_stone_bricks_q2",
+        "quarter_top": "minecraft:template/face/end_stone_bricks_q4",
+        "side_left": "minecraft:template/face/end_stone_bricks_l1",
+        "side_right": "minecraft:template/face/end_stone_bricks_l2",
+        "top": "minecraft:template/face/end_stone_bricks_l4",
+        "textures": {
             "textures": {
                 "all": "minecraft:block/end_stone_bricks"
             }
         }
     },
-    "composition": [
-        {
-            "model": "#base"
-        },
-        {
-            "model": "#center"
-        },
-        {
-            "model": "#face"
-        },
-        {
-            "model": "#face",
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 90
-                }
-            ]
-        },
-        {
-            "model": "#side_left",
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 180
-                }
-            ]
-        },
-        {
-            "model": "#quarter_left",
-            "cullface": "none",
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 180
-                },
-                {
-                    "type": "translate",
-                    "amount": [
-                        0,
-                        0,
-                        -8
-                    ]
-                }
-            ]
-        },
-        {
-            "model": "#side_right",
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 270
-                }
-            ]
-        },
-        {
-            "model": "#quarter_right",
-            "cullface": "none",
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 270
-                },
-                {
-                    "type": "translate",
-                    "amount": [
-                        -8,
-                        0,
-                        0
-                    ]
-                }
-            ]
-        },
-        {
-            "model": "#top",
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "x": 90,
-                    "y": 180
-                }
-            ]
-        },
-        {
-            "model": "#quarter_top",
-            "cullface": "none",
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "x": 90,
-                    "y": 180
-                },
-                {
-                    "type": "translate",
-                    "amount": [
-                        0,
-                        -8,
-                        0
-                    ]
-                }
-            ]
-        }
-    ]
+    "composition": "minecraft:template/stairs_all_inner_se"
 }
