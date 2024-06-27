@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:block/upper_slab",
+    "parent": "minecraft:block/slab_top",
     "textures": {
         "top": "#all",
         "side": "#all",

@@ -1,0 +1,8 @@
+{
+    "import": {
+        "face": "minecraft:template/face/cobblestone",
+        "side": "minecraft:template/face/cobblestone_half_bottom",
+        "textures": {}
+    },
+    "composition": "minecraft:template/slab_all"
+}
