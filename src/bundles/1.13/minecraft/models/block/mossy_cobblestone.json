@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/cobblestone",
+    "textures": {
+        "all": "minecraft:block/mossy_cobblestone"
+    }
+}

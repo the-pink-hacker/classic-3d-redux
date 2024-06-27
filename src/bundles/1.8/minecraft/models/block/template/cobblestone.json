@@ -1,0 +1,7 @@
+{
+    "import": {
+        "face": "minecraft:template/face/cobblestone",
+        "textures": {}
+    },
+    "composition": "minecraft:template/cube_all"
+}
