@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/purpur_slab_top",
+    "textures": {
+        "all": "minecraft:block/purpur_block"
+    }
+}

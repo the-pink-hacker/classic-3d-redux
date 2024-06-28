@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/purpur_stairs_top_outer_nw",
+    "textures": {
+        "all": "minecraft:block/purpur_block"
+    }
+}

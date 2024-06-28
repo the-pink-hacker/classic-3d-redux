@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:block/template/cut_copper_stairs_top_inner_ne",
+    "parent": "minecraft:block/template/purpur_stairs_top_inner_ne",
     "textures": {
         "all": "minecraft:block/weathered_cut_copper"
     }

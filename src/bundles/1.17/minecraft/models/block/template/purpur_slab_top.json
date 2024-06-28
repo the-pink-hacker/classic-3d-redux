@@ -1,0 +1,8 @@
+{
+    "import": {
+        "face": "minecraft:template/face/purpur_block",
+        "side": "minecraft:template/face/purpur_block_half_top",
+        "textures": {}
+    },
+    "composition": "minecraft:template/slab_all_top"
+}

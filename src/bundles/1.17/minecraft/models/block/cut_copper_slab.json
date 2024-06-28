@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:block/template/cut_copper_slab",
+    "parent": "minecraft:block/template/purpur_slab",
     "textures": {
         "all": "minecraft:block/cut_copper"
     }

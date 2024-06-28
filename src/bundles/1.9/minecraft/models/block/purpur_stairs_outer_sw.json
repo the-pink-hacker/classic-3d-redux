@@ -1,0 +1,18 @@
+{
+    "import": {
+        "face": "minecraft:template/face/purpur_block",
+        "quarter_left": "minecraft:template/face/purpur_block_q2",
+        "quarter_right": "minecraft:template/face/purpur_block_q1",
+        "quarter_top": "minecraft:template/face/purpur_block_q3",
+        "side_front": "minecraft:template/face/purpur_block_half_bottom",
+        "side_left": "minecraft:template/face/purpur_block_l1",
+        "side_right": "minecraft:template/face/purpur_block_l2",
+        "top": "minecraft:template/face/purpur_block_l3",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/purpur_block"
+            }
+        }
+    },
+    "composition": "minecraft:template/stairs_all_outer_sw"
+}

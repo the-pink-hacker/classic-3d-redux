@@ -1,0 +1,11 @@
+{
+    "import": {
+        "face": "minecraft:template/face/purpur_block",
+        "half_top": "minecraft:template/face/purpur_block_half_top",
+        "half_bottom": "minecraft:template/face/purpur_block_half_bottom",
+        "side_left": "minecraft:template/face/purpur_block_l1",
+        "side_right": "minecraft:template/face/purpur_block_l2",
+        "textures": {}
+    },
+    "composition": "minecraft:template/stairs_all_south"
+}

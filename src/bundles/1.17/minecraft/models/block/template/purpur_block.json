@@ -1,0 +1,7 @@
+{
+    "import": {
+        "face": "minecraft:template/face/purpur_block",
+        "textures": {}
+    },
+    "composition": "minecraft:template/cube_all"
+}
