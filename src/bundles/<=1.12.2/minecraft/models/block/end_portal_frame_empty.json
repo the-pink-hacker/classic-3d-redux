@@ -1,12 +1,11 @@
 {
     "import": {
-        "center": "minecraft:template/end_portal_frame_filled",
+        "center": "minecraft:template/end_portal_frame",
         "textures": {
             "textures": {
                 "side": "minecraft:block/endframe_side",
                 "particle": "minecraft:block/endframe_side",
-                "top": "minecraft:block/endframe_top",
-                "eye": "minecraft:block/endframe_eye"
+                "top": "minecraft:block/endframe_top"
             }
         }
     },

@@ -1,0 +1,10 @@
+{
+    "import": {
+        "center": "minecraft:template/end_portal_frame"
+    },
+    "composition": [
+        {
+            "model": "#center"
+        }
+    ]
+}
