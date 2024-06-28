@@ -21,7 +21,7 @@
             "from": [14, 0, 14],
             "to": [16, 16, 16],
             "faces": {
-                "north": {"uv": [2, 0, 0, 15], "texture": "#side", "cullface": "east"},
+                "north": {"uv": [2, 0, 0, 16], "texture": "#side", "cullface": "east"},
                 "east": {"uv": [0, 0, 2, 16], "texture": "#side", "cullface": "east"},
                 "south": {"uv": [14, 0, 16, 16], "texture": "#side", "cullface": "south"},
                 "west": {"uv": [16, 0, 14, 16], "texture": "#side", "cullface": "south"}
