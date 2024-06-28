@@ -1,0 +1,11 @@
+{
+    "import": {
+        "face": "minecraft:template/face/bricks",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/brick"
+            }
+        }
+    },
+    "composition": "minecraft:template/cube_all"
+}

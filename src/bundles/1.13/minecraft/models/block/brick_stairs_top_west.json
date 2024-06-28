@@ -1,0 +1,17 @@
+{
+    "import": {
+        "face": "minecraft:template/face/bricks",
+        "half_top": "minecraft:template/face/bricks_half_top",
+        "half_bottom": "minecraft:template/face/bricks_half_bottom",
+        "half_left": "minecraft:template/face/bricks_half_left",
+        "half_right": "minecraft:template/face/bricks_half_right",
+        "side_left": "minecraft:template/face/bricks_l4",
+        "side_right": "minecraft:template/face/bricks_l3",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/bricks"
+            }
+        }
+    },
+    "composition": "minecraft:template/stairs_all_top_west"
+}

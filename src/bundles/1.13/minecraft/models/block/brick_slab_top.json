@@ -1,0 +1,12 @@
+{
+    "import": {
+        "face": "minecraft:template/face/bricks",
+        "side": "minecraft:template/face/bricks_half_top",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/bricks"
+            }
+        }
+    },
+    "composition": "minecraft:template/slab_all_top"
+}
