@@ -3,7 +3,9 @@
         "face": "minecraft:template/face/cobblestone",
         "side": "minecraft:template/face/cobblestone_half_top",
         "textures": {
-            "all": "minecraft:block/cobblestone"
+            "textures": {
+                "all": "minecraft:block/cobblestone"
+            }
         }
     },
     "composition": "minecraft:template/slab_all_top"

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/cobblestone_stairs_top_outer_sw",
+    "textures": {
+        "all": "minecraft:block/mossy_cobblestone"
+    }
+}

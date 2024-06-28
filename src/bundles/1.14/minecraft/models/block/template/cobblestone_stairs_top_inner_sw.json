@@ -1,0 +1,13 @@
+{
+    "import": {
+        "face": "minecraft:template/face/cobblestone",
+        "quarter_left": "minecraft:template/face/cobblestone_q4",
+        "quarter_right": "minecraft:template/face/cobblestone_q3",
+        "quarter_bottom": "minecraft:template/face/cobblestone_q2",
+        "side_left": "minecraft:template/face/cobblestone_l4",
+        "side_right": "minecraft:template/face/cobblestone_l3",
+        "bottom": "minecraft:template/face/cobblestone_l2",
+        "textures": {}
+    },
+    "composition": "minecraft:template/stairs_all_top_inner_sw"
+}

@@ -62,13 +62,7 @@
             ]
         },
         {
-            "model": "#side_right",
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 90
-                }
-            ]
+            "model": "#side_right"
         },
         {
             "model": "#half_right",

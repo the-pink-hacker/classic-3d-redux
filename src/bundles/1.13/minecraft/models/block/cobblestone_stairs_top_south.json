@@ -1,0 +1,15 @@
+{
+    "import": {
+        "face": "minecraft:template/face/cobblestone",
+        "half_top": "minecraft:template/face/cobblestone_half_top",
+        "half_bottom": "minecraft:template/face/cobblestone_half_bottom",
+        "side_left": "minecraft:template/face/cobblestone_l4",
+        "side_right": "minecraft:template/face/cobblestone_l3",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/cobblestone"
+            }
+        }
+    },
+    "composition": "minecraft:template/stairs_all_top_south"
+}

@@ -1,6 +1,9 @@
 {
-    "parent": "minecraft:block/template/cobblestone",
-    "textures": {
-        "all": "minecraft:block/cobblestone"
-    }
+    "import": {
+        "face": "minecraft:template/face/cobblestone",
+        "textures": {
+            "all": "minecraft:block/cobblestone"
+        }
+    },
+    "composition": "minecraft:template/cube_all"
 }
