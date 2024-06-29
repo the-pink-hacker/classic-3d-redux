@@ -3,7 +3,6 @@
         {
             "from": [9, 1, -0.5],
             "to": [16, 8, 0],
-            "rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
             "faces": {
                 "north": {"uv": [0, 8, 7, 15], "texture": "#all", "cullface": "north"},
                 "east": {"uv": [0, 8, 1, 15], "texture": "#all", "cullface": "north"},
@@ -15,7 +14,6 @@
         {
             "from": [1, 1, -0.5],
             "to": [8, 8, 0],
-            "rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
             "faces": {
                 "north": {"uv": [8, 8, 15, 15], "texture": "#all", "cullface": "north"},
                 "east": {"uv": [8, 8, 9, 15], "texture": "#all", "cullface": "north"},
@@ -24,5 +22,8 @@
                 "down": {"uv": [15, 14, 8, 15], "texture": "#all", "cullface": "north"}
             }
         }
-    ]
+    ],
+    "mcpacker": {
+        "virtual": true
+    }
 }

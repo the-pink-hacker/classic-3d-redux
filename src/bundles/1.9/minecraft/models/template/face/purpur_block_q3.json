@@ -3,7 +3,6 @@
         {
             "from": [9, 1, -0.5],
             "to": [16, 8, 0],
-            "rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
             "faces": {
                 "north": {"uv": [0, 8, 7, 15], "texture": "#all", "cullface": "north"},
                 "east": {"uv": [0, 8, 1, 15], "texture": "#all", "cullface": "north"},
@@ -12,5 +11,8 @@
                 "down": {"uv": [7, 14, 0, 15], "texture": "#all", "cullface": "north"}
             }
         }
-    ]
+    ],
+    "mcpacker": {
+        "virtual": true
+    }
 }
