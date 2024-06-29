@@ -1,0 +1,9 @@
+{
+    "import": {
+        "top": {},
+        "side": "minecraft:template/face/sandstone",
+        "bottom": "minecraft:template/face/sandstone_bottom",
+        "textures": {}
+    },
+    "composition": "minecraft:template/cube_bottom_top"
+}
