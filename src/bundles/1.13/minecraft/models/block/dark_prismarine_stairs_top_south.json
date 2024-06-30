@@ -1,0 +1,15 @@
+{
+    "import": {
+        "face": "minecraft:template/face/dark_prismarine",
+        "half_top": "minecraft:template/face/dark_prismarine_half_top",
+        "half_bottom": "minecraft:template/face/dark_prismarine_half_bottom",
+        "side_left": "minecraft:template/face/dark_prismarine_l4",
+        "side_right": "minecraft:template/face/dark_prismarine_l3",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/dark_prismarine"
+            }
+        }
+    },
+    "composition": "minecraft:template/stairs_all_top_south"
+}

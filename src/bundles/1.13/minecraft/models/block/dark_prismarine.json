@@ -1,0 +1,11 @@
+{
+    "import": {
+        "face": "minecraft:template/face/dark_prismarine",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/dark_prismarine"
+            }
+        }
+    },
+    "composition": "minecraft:template/cube_all"
+}

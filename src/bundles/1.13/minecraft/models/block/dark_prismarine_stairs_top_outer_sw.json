@@ -1,0 +1,18 @@
+{
+    "import": {
+        "face": "minecraft:template/face/dark_prismarine",
+        "quarter_left": "minecraft:template/face/dark_prismarine_q3",
+        "quarter_right": "minecraft:template/face/dark_prismarine_q4",
+        "quarter_bottom": "minecraft:template/face/dark_prismarine_q2",
+        "side_front": "minecraft:template/face/dark_prismarine_half_top",
+        "side_left": "minecraft:template/face/dark_prismarine_l4",
+        "side_right": "minecraft:template/face/dark_prismarine_l3",
+        "bottom": "minecraft:template/face/dark_prismarine_l2",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/dark_prismarine"
+            }
+        }
+    },
+    "composition": "minecraft:template/stairs_all_top_outer_sw"
+}
