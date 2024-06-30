@@ -95,6 +95,7 @@
             "to": [14, 11, 0],
             "faces": {
                 "north": {"uv": [2, 5, 4, 6], "texture": "#all", "cullface": "north"},
+                "east": {"uv": [2, 5, 3, 6], "texture": "#all", "cullface": "north"},
                 "up": {"uv": [4, 5, 2, 6], "texture": "#all", "cullface": "north"},
                 "down": {"uv": [4, 5, 2, 6], "texture": "#all", "cullface": "north"}
             }
