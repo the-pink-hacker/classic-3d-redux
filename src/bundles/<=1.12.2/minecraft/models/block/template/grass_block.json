@@ -1,0 +1,10 @@
+{
+    "import": {
+        "textures": {
+            "textures": {
+                "top": "minecraft:block/grass_top"
+            }
+        }
+    },
+    "composition": "minecraft:template/grass_block"
+}

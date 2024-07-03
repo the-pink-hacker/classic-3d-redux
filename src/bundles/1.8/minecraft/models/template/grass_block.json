@@ -1,0 +1,104 @@
+{
+    "virtual": true,
+    "import": {
+        "side": "minecraft:template/face/grass_block_side",
+        "center": {
+            "parent": "minecraft:block/block",
+            "textures": {
+                "particle": "minecraft:block/dirt",
+                "bottom": "minecraft:block/dirt"
+            },
+            "elements": [
+                {
+                    "from": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "to": [
+                        16,
+                        16,
+                        16
+                    ],
+                    "faces": {
+                        "north": {
+                            "texture": "#side",
+                            "cullface": "north"
+                        },
+                        "east": {
+                            "texture": "#side",
+                            "cullface": "east"
+                        },
+                        "south": {
+                            "texture": "#side",
+                            "cullface": "south"
+                        },
+                        "west": {
+                            "texture": "#side",
+                            "cullface": "west"
+                        },
+                        "up": {
+                            "texture": "#top",
+                            "cullface": "up",
+                            "tintindex": 0
+                        },
+                        "down": {
+                            "texture": "#bottom",
+                            "cullface": "down"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "composition": [
+        {
+            "model": "#textures"
+        },
+        {
+            "model": "#center"
+        },
+        {
+            "model": "#side",
+            "textures": {
+                "all": "#overlay"
+            }
+        },
+        {
+            "model": "#side",
+            "textures": {
+                "all": "#overlay"
+            },
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "model": "#side",
+            "textures": {
+                "all": "#overlay"
+            },
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#side",
+            "textures": {
+                "all": "#overlay"
+            },
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 270
+                }
+            ]
+        }
+    ]
+}

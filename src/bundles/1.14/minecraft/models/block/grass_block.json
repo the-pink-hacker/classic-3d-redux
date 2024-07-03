@@ -1,0 +1,12 @@
+{
+    "import": {
+        "textures": {
+            "textures": {
+                "top": "minecraft:block/grass_block_top",
+                "side": "minecraft:block/grass_block_side",
+                "overlay": "minecraft:block/grass_block_side_overlay"
+            }
+        }
+    },
+    "composition": "minecraft:template/grass_block"
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/template/grass_block",
+    "textures": {
+        "side": "minecraft:block/grass_block_side",
+        "overlay": "minecraft:block/grass_block_side_overlay"
+    }
+}
