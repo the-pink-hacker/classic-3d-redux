@@ -1,101 +1,16 @@
 {
     "import": {
+        "top": {},
         "side": "minecraft:template/face/grass_block_snow",
-        "center": {
-            "parent": "minecraft:block/block",
+        "bottom": {},
+        "textures": {
             "textures": {
-                "particle": "minecraft:block/dirt",
-                "bottom": "minecraft:block/dirt",
                 "top": "minecraft:block/grass_block_top",
-                "side": "minecraft:block/grass_block_snow"
-            },
-            "elements": [
-                {
-                    "from": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "to": [
-                        16,
-                        16,
-                        16
-                    ],
-                    "faces": {
-                        "north": {
-                            "texture": "#side",
-                            "cullface": "north"
-                        },
-                        "east": {
-                            "texture": "#side",
-                            "cullface": "east"
-                        },
-                        "south": {
-                            "texture": "#side",
-                            "cullface": "south"
-                        },
-                        "west": {
-                            "texture": "#side",
-                            "cullface": "west"
-                        },
-                        "up": {
-                            "texture": "#top",
-                            "cullface": "up"
-                        },
-                        "down": {
-                            "texture": "#bottom",
-                            "cullface": "down"
-                        }
-                    }
-                }
-            ]
+                "side": "minecraft:block/grass_block_snow",
+                "bottom": "minecraft:block/dirt",
+                "particle": "minecraft:block/dirt"
+            }
         }
     },
-    "composition": [
-        {
-            "model": "#center"
-        },
-        {
-            "model": "#side",
-            "textures": {
-                "all": "#side"
-            }
-        },
-        {
-            "model": "#side",
-            "textures": {
-                "all": "#side"
-            },
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 90
-                }
-            ]
-        },
-        {
-            "model": "#side",
-            "textures": {
-                "all": "#side"
-            },
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 180
-                }
-            ]
-        },
-        {
-            "model": "#side",
-            "textures": {
-                "all": "#side"
-            },
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 270
-                }
-            ]
-        }
-    ]
+    "composition": "minecraft:template/cube_bottom_top"
 }
