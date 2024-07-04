@@ -1,0 +1,45 @@
+{
+    "import": {
+        "center": "minecraft:template/bookshelf",
+        "end": "minecraft:template/face/planks",
+        "textures": {
+            "textures": {
+                "end": "minecraft:block/planks_oak"
+            }
+        }
+    },
+    "composition": [
+        {
+            "model": "#center"
+        },
+        {
+            "model": "#textures"
+        },
+        {
+            "model": "#end",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 90,
+                    "y": 180
+                }
+            ],
+            "textures": {
+                "all": "#end"
+            }
+        },
+        {
+            "model": "#end",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 270,
+                    "y": 180
+                }
+            ],
+            "textures": {
+                "all": "#end"
+            }
+        }
+    ]
+}
