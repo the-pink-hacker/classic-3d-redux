@@ -1,0 +1,15 @@
+{
+    "import": {
+        "top": {},
+        "side": "minecraft:template/face/podzol_side",
+        "bottom": {},
+        "textures": {
+            "textures": {
+                "top": "minecraft:block/dirt_podzol_top",
+                "side": "minecraft:block/dirt_podzol_side",
+                "bottom": "minecraft:block/dirt"
+            }
+        }
+    },
+    "composition": "minecraft:template/cube_bottom_top"
+}
