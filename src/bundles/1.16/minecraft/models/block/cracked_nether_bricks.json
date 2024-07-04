@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/nether_bricks",
+    "textures": {
+        "all": "minecraft:block/cracked_nether_bricks"
+    }
+}

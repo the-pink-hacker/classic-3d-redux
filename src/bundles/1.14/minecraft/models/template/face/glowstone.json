@@ -379,5 +379,8 @@
                 "down": {"uv": [7, 9, 1, 10], "texture": "#all", "cullface": "north"}
             }
         }
-    ]
+    ],
+    "mcpacker": {
+        "virtual": true
+    }
 }

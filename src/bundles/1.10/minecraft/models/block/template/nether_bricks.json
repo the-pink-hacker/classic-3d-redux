@@ -1,0 +1,7 @@
+{
+    "import": {
+        "face": "minecraft:template/face/nether_bricks",
+        "textures": {}
+    },
+    "composition": "minecraft:template/cube_all"
+}

@@ -496,5 +496,8 @@
                 "east": {"uv": [1, 3, 2, 7], "texture": "#all", "cullface": "north"}
             }
         }
-    ]
+    ],
+    "mcpacker": {
+        "virtual": true
+    }
 }

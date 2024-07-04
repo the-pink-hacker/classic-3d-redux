@@ -191,7 +191,7 @@ color = "yellow"
 # 1.12
 
 [build.1-12]
-bundles = ["1.8", "1.9", "1.9-1.12.2", "1.10", "<=1.12.2"]
+bundles = ["1.8", "1.9", "1.9-1.12.2", "1.10", "1.10-1.12.2", "<=1.12.2"]
 redirects = ["old_textures"]
 
 [build.1-12.pack]
@@ -205,7 +205,7 @@ color = "yellow"
 # 1.11
 
 [build.1-11]
-bundles = ["1.8", "1.9", "1.9-1.12.2", "1.10", "<=1.12.2"]
+bundles = ["1.8", "1.9", "1.9-1.12.2", "1.10", "1.10-1.12.2", "<=1.12.2"]
 redirects = ["old_textures"]
 
 [build.1-11.pack]
@@ -219,7 +219,7 @@ color = "yellow"
 # 1.10
 
 [build.1-10]
-bundles = ["1.8", "1.9", "1.9-1.12.2", "1.10", "<=1.12.2"]
+bundles = ["1.8", "1.9", "1.9-1.12.2", "1.10", "1.10-1.12.2", "<=1.12.2"]
 redirects = ["old_textures"]
 
 [build.1-10.pack]
@@ -233,7 +233,7 @@ color = "yellow"
 # 1.9
 
 [build.1-9]
-bundles = ["1.8", "1.9", "1.9-1.12.2", "<=1.12.2"]
+bundles = ["1.8", "1.9", "<=1.9.4", "1.9-1.12.2", "<=1.12.2"]
 redirects = ["old_textures"]
 
 [build.1-9.pack]
@@ -247,7 +247,7 @@ color = "yellow"
 # 1.8
 
 [build.1-8]
-bundles = ["1.8", "<=1.12.2"]
+bundles = ["1.8", "<=1.9.4", "<=1.12.2"]
 redirects = ["old_textures"]
 
 [build.1-8.pack]
