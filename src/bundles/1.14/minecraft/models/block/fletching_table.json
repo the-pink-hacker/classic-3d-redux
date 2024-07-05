@@ -1,0 +1,24 @@
+{
+    "import": {
+        "center": "minecraft:template/fletching_table",
+        "bottom": "minecraft:template/face/planks"
+    },
+    "composition": [
+        {
+            "model": "#center"
+        },
+        {
+            "model": "#bottom",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 270,
+                    "y": 180
+                }
+            ],
+            "textures": {
+                "all": "#bottom"
+            }
+        }
+    ]
+}
