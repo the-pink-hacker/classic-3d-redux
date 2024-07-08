@@ -1,0 +1,102 @@
+{
+    "virtual": true,
+    "import": {
+        "center": {
+            "parent": "minecraft:block/cube_bottom_top",
+            "textures": {
+                "bottom": "minecraft:block/dirt"
+            },
+            "elements": [
+                {
+                    "from": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "to": [
+                        16,
+                        15,
+                        16
+                    ],
+                    "faces": {
+                        "north": {
+                            "texture": "#side",
+                            "cullface": "north"
+                        },
+                        "east": {
+                            "texture": "#side",
+                            "cullface": "east"
+                        },
+                        "south": {
+                            "texture": "#side",
+                            "cullface": "south"
+                        },
+                        "west": {
+                            "texture": "#side",
+                            "cullface": "west"
+                        },
+                        "up": {
+                            "texture": "#top",
+                            "cullface": "up"
+                        },
+                        "down": {
+                            "texture": "#bottom",
+                            "cullface": "down"
+                        }
+                    }
+                }
+            ]
+        },
+        "side": "minecraft:template/face/dirt_path_side"
+    },
+    "composition": [
+        {
+            "model": "#textures"
+        },
+        {
+            "model": "#center"
+        },
+        {
+            "model": "#side",
+            "textures": {
+                "all": "#side"
+            }
+        },
+        {
+            "model": "#side",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 90
+                }
+            ],
+            "textures": {
+                "all": "#side"
+            }
+        },
+        {
+            "model": "#side",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 180
+                }
+            ],
+            "textures": {
+                "all": "#side"
+            }
+        },
+        {
+            "model": "#side",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 270
+                }
+            ],
+            "textures": {
+                "all": "#side"
+            }
+        }
+    ]
+}

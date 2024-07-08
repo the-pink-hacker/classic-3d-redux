@@ -1,0 +1,11 @@
+{
+    "import": {
+        "textures": {
+            "textures": {
+                "top": "minecraft:block/grass_path_top",
+                "side": "minecraft:block/grass_path_side"
+            }
+        }
+    },
+    "composition": "minecraft:template/dirt_path"
+}
