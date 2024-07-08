@@ -1,0 +1,7 @@
+{
+    "import": {
+        "face": "minecraft:template/face/nether_bricks",
+        "side": "minecraft:template/face/nether_bricks_half_top"
+    },
+    "composition": "minecraft:template/slab_all_top"
+}

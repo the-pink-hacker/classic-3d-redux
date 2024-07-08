@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/nether_brick_slab",
+    "textures": {
+        "all": "minecraft:block/nether_bricks"
+    }
+}

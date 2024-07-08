@@ -1,0 +1,12 @@
+{
+    "import": {
+        "face": "minecraft:template/face/nether_bricks",
+        "side": "minecraft:template/face/nether_bricks_half_bottom",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/nether_brick"
+            }
+        }
+    },
+    "composition": "minecraft:template/slab_all"
+}
