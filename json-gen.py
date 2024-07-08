@@ -8,23 +8,23 @@ def generate_model_textures(parent: str, **kwargs: str) -> dict:
     }
 
 def main():
-    model = "red_sandstone_stairs_"
+    model = "nether_brick_stairs_"
 
-    parent = "sandstone_stairs_"
+    parent = "nether_brick_stairs_"
 
     model_suffixes = [
-        #"north",
-        #"east",
-        #"south",
-        #"west",
-        #"inner_ne",
-        #"inner_nw",
-        #"inner_se",
-        #"inner_sw",
-        #"outer_ne",
-        #"outer_nw",
-        #"outer_se",
-        #"outer_sw",
+        "north",
+        "east",
+        "south",
+        "west",
+        "inner_ne",
+        "inner_nw",
+        "inner_se",
+        "inner_sw",
+        "outer_ne",
+        "outer_nw",
+        "outer_se",
+        "outer_sw",
         "top_north",
         "top_east",
         "top_south",
@@ -39,7 +39,7 @@ def main():
         "top_outer_sw",
     ]
 
-    model_folder = "src/bundles/1.13/minecraft/models/block/"
+    model_folder = "src/bundles/1.9/minecraft/models/block/"
     parent_model_id_path = "minecraft:block/template/"
 
     for model_suffix in model_suffixes:
@@ -47,9 +47,7 @@ def main():
         parent_model_id = f"{parent_model_id_path}{parent}{model_suffix}"
         model_data = generate_model_textures(
             parent=parent_model_id,
-            bottom="minecraft:block/red_sandstone_top",
-            side="minecraft:block/red_sandstone",
-            top="minecraft:block/red_sandstone_bottom",
+            all="minecraft:block/nether_brick",
         )
 
         with open(model_file, "w") as file:

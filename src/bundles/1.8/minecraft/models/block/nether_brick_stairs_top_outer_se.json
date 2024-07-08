@@ -1,0 +1,18 @@
+{
+    "import": {
+        "face": "minecraft:template/face/nether_bricks",
+        "quarter_left": "minecraft:template/face/nether_bricks_q3",
+        "quarter_right": "minecraft:template/face/nether_bricks_q4",
+        "quarter_bottom": "minecraft:template/face/nether_bricks_q1",
+        "side_front": "minecraft:template/face/nether_bricks_half_top",
+        "side_left": "minecraft:template/face/nether_bricks_l4",
+        "side_right": "minecraft:template/face/nether_bricks_l3",
+        "bottom": "minecraft:template/face/nether_bricks_l1",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/nether_brick"
+            }
+        }
+    },
+    "composition": "minecraft:template/stairs_all_top_outer_se"
+}
