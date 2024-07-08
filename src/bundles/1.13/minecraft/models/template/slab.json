@@ -2,7 +2,7 @@
     "virtual": true,
     "import": {
         "center": {
-            "parent": "minecraft:block/half_slab",
+            "parent": "minecraft:block/slab",
             "elements": [
                 {
                     "from": [

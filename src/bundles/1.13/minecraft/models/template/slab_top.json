@@ -2,17 +2,17 @@
     "virtual": true,
     "import": {
         "center": {
-            "parent": "minecraft:block/half_slab",
+            "parent": "minecraft:block/slab_top",
             "elements": [
                 {
                     "from": [
                         0,
-                        0,
+                        8,
                         0
                     ],
                     "to": [
                         16,
-                        8,
+                        16,
                         16
                     ],
                     "faces": {
@@ -33,11 +33,11 @@
                             "cullface": "west"
                         },
                         "up": {
-                            "texture": "#top"
+                            "texture": "#top",
+                            "cullface": "up"
                         },
                         "down": {
-                            "texture": "#bottom",
-                            "cullface": "down"
+                            "texture": "#bottom"
                         }
                     }
                 }
@@ -97,14 +97,6 @@
             "model": "#top",
             "transformations": [
                 {
-                    "type": "translate",
-                    "amount": [
-                        0,
-                        0,
-                        8
-                    ]
-                },
-                {
                     "type": "rotate",
                     "x": 90,
                     "y": 180
@@ -118,6 +110,14 @@
             "model": "#bottom",
             "cullface": "none",
             "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        8
+                    ]
+                },
                 {
                     "type": "rotate",
                     "x": 270,
