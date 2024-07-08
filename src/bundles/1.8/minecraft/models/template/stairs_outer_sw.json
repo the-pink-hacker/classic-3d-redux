@@ -1,44 +1,64 @@
 {
     "virtual": true,
     "import": {
-        "center": "minecraft:template/inner_stairs_all"
+        "center": "minecraft:template/outer_stairs"
     },
     "composition": [
         {
-            "model": "#textures"
+            "model": "#textures",
+            "optional": true
         },
         {
             "model": "#center",
             "transformations": [
                 {
                     "type": "rotate",
-                    "y": 270
-                }
-            ]
-        },
-        {
-            "model": "#face",
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 270
-                }
-            ]
-        },
-        {
-            "model": "#face"
-        },
-        {
-            "model": "#side_left",
-            "transformations": [
-                {
-                    "type": "rotate",
                     "y": 90
                 }
             ]
         },
         {
-            "model": "#quarter_left",
+            "model": "#side_back_right",
+            "optional": true,
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 90
+                }
+            ],
+            "textures": {
+                "all": "#side"
+            }
+        },
+        {
+            "model": "#side_back_left",
+            "optional": true,
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 180
+                }
+            ],
+            "textures": {
+                "all": "#side"
+            }
+        },
+        {
+            "model": "#side_front",
+            "optional": true,
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 270
+                }
+            ],
+            "textures": {
+                "all": "#side"
+            }
+        },
+        {
+            "model": "#side_front_left_alt",
+            "optional": true,
             "cullface": "none",
             "transformations": [
                 {
@@ -51,21 +71,23 @@
                 },
                 {
                     "type": "rotate",
-                    "y": 90
+                    "y": 270
                 }
-            ]
+            ],
+            "textures": {
+                "all": "#side"
+            }
         },
         {
-            "model": "#side_right",
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 180
-                }
-            ]
+            "model": "#side_front",
+            "optional": true,
+            "textures": {
+                "all": "#side"
+            }
         },
         {
-            "model": "#quarter_right",
+            "model": "#side_front_right_alt",
+            "optional": true,
             "cullface": "none",
             "transformations": [
                 {
@@ -75,25 +97,29 @@
                         0,
                         8
                     ]
-                },
+                }
+            ],
+            "textures": {
+                "all": "#side"
+            }
+        },
+        {
+            "model": "#top_alt",
+            "optional": true,
+            "transformations": [
                 {
                     "type": "rotate",
+                    "x": 90,
                     "y": 180
                 }
-            ]
+            ],
+            "textures": {
+                "all": "#top"
+            }
         },
         {
             "model": "#top",
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "x": 90,
-                    "y": 180
-                }
-            ]
-        },
-        {
-            "model": "#quarter_top",
+            "optional": true,
             "cullface": "none",
             "transformations": [
                 {
@@ -109,17 +135,24 @@
                     "x": 90,
                     "y": 180
                 }
-            ]
+            ],
+            "textures": {
+                "all": "#top"
+            }
         },
         {
-            "model": "#face",
+            "model": "#bottom",
+            "optional": true,
             "transformations": [
                 {
                     "type": "rotate",
                     "x": 270,
                     "y": 180
                 }
-            ]
+            ],
+            "textures": {
+                "all": "#bottom"
+            }
         }
     ]
 }

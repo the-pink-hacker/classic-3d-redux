@@ -1,0 +1,11 @@
+{
+    "import": {
+        "side": "minecraft:template/face/sandstone",
+        "side_left": "minecraft:template/face/sandstone_l4",
+        "side_right": "minecraft:template/face/sandstone_l3",
+        "side_front_top": "minecraft:template/face/sandstone_half_top",
+        "side_front_bottom": "minecraft:template/face/sandstone_half_bottom",
+        "top": "minecraft:template/face/sandstone_bottom"
+    },
+    "composition": "minecraft:template/stairs_top_north"
+}

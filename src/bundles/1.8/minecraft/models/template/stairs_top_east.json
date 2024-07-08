@@ -1,44 +1,59 @@
 {
     "virtual": true,
     "import": {
-        "center": "minecraft:template/inner_stairs_all"
+        "center": "minecraft:template/stairs_top"
     },
     "composition": [
         {
-            "model": "#textures"
+            "model": "#textures",
+            "optional": true
         },
         {
             "model": "#center",
             "transformations": [
                 {
                     "type": "rotate",
-                    "y": 270
+                    "x": 180,
+                    "y": 90
                 }
             ]
         },
         {
-            "model": "#face",
+            "model": "#side",
+            "optional": true,
             "transformations": [
                 {
                     "type": "rotate",
                     "y": 270
                 }
-            ]
-        },
-        {
-            "model": "#face"
+            ],
+            "textures": {
+                "all": "#side"
+            }
         },
         {
             "model": "#side_left",
+            "optional": true,
+            "textures": {
+                "all": "#side"
+            }
+        },
+        {
+            "model": "#side_front_top",
+            "optional": true,
             "transformations": [
                 {
                     "type": "rotate",
                     "y": 90
                 }
-            ]
+            ],
+            "textures": {
+                "all": "#side"
+            }
         },
         {
-            "model": "#quarter_left",
+            "model": "#side_front_bottom",
+            "optional": true,
             "cullface": "none",
             "transformations": [
                 {
@@ -53,47 +68,41 @@
                     "type": "rotate",
                     "y": 90
                 }
-            ]
+            ],
+            "textures": {
+                "all": "#side"
+            }
         },
         {
             "model": "#side_right",
+            "optional": true,
             "transformations": [
                 {
                     "type": "rotate",
                     "y": 180
                 }
-            ]
-        },
-        {
-            "model": "#quarter_right",
-            "cullface": "none",
-            "transformations": [
-                {
-                    "type": "translate",
-                    "amount": [
-                        0,
-                        0,
-                        8
-                    ]
-                },
-                {
-                    "type": "rotate",
-                    "y": 180
-                }
-            ]
+            ],
+            "textures": {
+                "all": "#side"
+            }
         },
         {
             "model": "#top",
+            "optional": true,
             "transformations": [
                 {
                     "type": "rotate",
                     "x": 90,
                     "y": 180
                 }
-            ]
+            ],
+            "textures": {
+                "all": "#top"
+            }
         },
         {
-            "model": "#quarter_top",
+            "model": "#bottom_alt",
+            "optional": true,
             "cullface": "none",
             "transformations": [
                 {
@@ -106,20 +115,27 @@
                 },
                 {
                     "type": "rotate",
-                    "x": 90,
+                    "x": 270,
                     "y": 180
                 }
-            ]
+            ],
+            "textures": {
+                "all": "#bottom"
+            }
         },
         {
-            "model": "#face",
+            "model": "#bottom",
+            "optional": true,
             "transformations": [
                 {
                     "type": "rotate",
                     "x": 270,
                     "y": 180
                 }
-            ]
+            ],
+            "textures": {
+                "all": "#bottom"
+            }
         }
     ]
 }

@@ -1,44 +1,57 @@
 {
     "virtual": true,
     "import": {
-        "center": "minecraft:template/inner_stairs_all"
+        "center": "minecraft:template/inner_stairs"
     },
     "composition": [
         {
-            "model": "#textures"
+            "model": "#textures",
+            "optional": true
         },
         {
             "model": "#center",
             "transformations": [
                 {
                     "type": "rotate",
-                    "y": 270
+                    "y": 180
                 }
             ]
         },
         {
-            "model": "#face",
+            "model": "#side",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 180
+                }
+            ],
+            "optional": true,
+            "textures": {
+                "all": "#side"
+            }
+        },
+        {
+            "model": "#side",
             "transformations": [
                 {
                     "type": "rotate",
                     "y": 270
                 }
-            ]
-        },
-        {
-            "model": "#face"
+            ],
+            "optional": true,
+            "textures": {
+                "all": "#side"
+            }
         },
         {
             "model": "#side_left",
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 90
-                }
-            ]
+            "optional": true,
+            "textures": {
+                "all": "#side"
+            }
         },
         {
-            "model": "#quarter_left",
+            "model": "#side_left_alt",
             "cullface": "none",
             "transformations": [
                 {
@@ -48,24 +61,28 @@
                         0,
                         8
                     ]
-                },
-                {
-                    "type": "rotate",
-                    "y": 90
                 }
-            ]
+            ],
+            "optional": true,
+            "textures": {
+                "all": "#side"
+            }
         },
         {
             "model": "#side_right",
             "transformations": [
                 {
                     "type": "rotate",
-                    "y": 180
+                    "y": 90
                 }
-            ]
+            ],
+            "optional": true,
+            "textures": {
+                "all": "#side"
+            }
         },
         {
-            "model": "#quarter_right",
+            "model": "#side_right_alt",
             "cullface": "none",
             "transformations": [
                 {
@@ -78,9 +95,13 @@
                 },
                 {
                     "type": "rotate",
-                    "y": 180
+                    "y": 90
                 }
-            ]
+            ],
+            "optional": true,
+            "textures": {
+                "all": "#side"
+            }
         },
         {
             "model": "#top",
@@ -90,10 +111,14 @@
                     "x": 90,
                     "y": 180
                 }
-            ]
+            ],
+            "optional": true,
+            "textures": {
+                "all": "#top"
+            }
         },
         {
-            "model": "#quarter_top",
+            "model": "#top_alt",
             "cullface": "none",
             "transformations": [
                 {
@@ -109,17 +134,25 @@
                     "x": 90,
                     "y": 180
                 }
-            ]
+            ],
+            "optional": true,
+            "textures": {
+                "all": "#top"
+            }
         },
         {
-            "model": "#face",
+            "model": "#bottom",
+            "optional": true,
             "transformations": [
                 {
                     "type": "rotate",
                     "x": 270,
                     "y": 180
                 }
-            ]
+            ],
+            "textures": {
+                "all": "#bottom"
+            }
         }
     ]
 }

@@ -1,32 +1,30 @@
 import json
 
 
-def generate_model_all(texture: str, parent: str, texture_name = "all") -> dict:
+def generate_model_textures(parent: str, **kwargs: str) -> dict:
     return {
         "parent": parent,
-        "textures": {
-            texture_name: texture,
-        },
+        "textures": kwargs
     }
 
 def main():
-    model = "purpur_stairs_"
+    model = "red_sandstone_stairs_"
 
-    parent = "purpur_stairs_"
+    parent = "sandstone_stairs_"
 
     model_suffixes = [
-        "north",
-        "east",
-        "south",
-        "west",
-        "inner_ne",
-        "inner_nw",
-        "inner_se",
-        "inner_sw",
-        "outer_ne",
-        "outer_nw",
-        "outer_se",
-        "outer_sw",
+        #"north",
+        #"east",
+        #"south",
+        #"west",
+        #"inner_ne",
+        #"inner_nw",
+        #"inner_se",
+        #"inner_sw",
+        #"outer_ne",
+        #"outer_nw",
+        #"outer_se",
+        #"outer_sw",
         "top_north",
         "top_east",
         "top_south",
@@ -41,14 +39,18 @@ def main():
         "top_outer_sw",
     ]
 
-    model_folder = "src/bundles/1.17/minecraft/models/block/"
+    model_folder = "src/bundles/1.13/minecraft/models/block/"
     parent_model_id_path = "minecraft:block/template/"
-    texture_id = "minecraft:block/purpur_block"
 
     for model_suffix in model_suffixes:
         model_file = f"{model_folder}{model}{model_suffix}.json"
         parent_model_id = f"{parent_model_id_path}{parent}{model_suffix}"
-        model_data = generate_model_all(texture_id, parent_model_id)
+        model_data = generate_model_textures(
+            parent=parent_model_id,
+            bottom="minecraft:block/red_sandstone_top",
+            side="minecraft:block/red_sandstone",
+            top="minecraft:block/red_sandstone_bottom",
+        )
 
         with open(model_file, "w") as file:
             json.dump(model_data, file, indent=4)
