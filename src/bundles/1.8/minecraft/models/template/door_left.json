@@ -1,0 +1,14 @@
+{
+    "virtual": true,
+    "composition": [
+        {
+            "model": "#right",
+            "transformations": [
+                {
+                    "type": "flip",
+                    "axis": "z"
+                }
+            ]
+        }
+    ]
+}
