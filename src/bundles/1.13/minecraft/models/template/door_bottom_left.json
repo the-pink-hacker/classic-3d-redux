@@ -1,0 +1,26 @@
+{
+    "virtual": true,
+    "import": {
+        "parent": {
+            "parent": "minecraft:block/door_bottom_left"
+        }
+    },
+    "composition": [
+        {
+            "model": "#textures",
+            "optional": true
+        },
+        {
+            "model": "#parent"
+        },
+        {
+            "model": "#right",
+            "transformations": [
+                {
+                    "type": "flip",
+                    "axis": "z"
+                }
+            ]
+        }
+    ]
+}

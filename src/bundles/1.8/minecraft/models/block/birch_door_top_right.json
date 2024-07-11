@@ -1,0 +1,7 @@
+{
+    "import": {
+        "right": "minecraft:template/birch_door_top_right",
+        "textures": "minecraft:template/texture/birch_door_top"
+    },
+    "composition": "minecraft:template/door_top_right"
+}

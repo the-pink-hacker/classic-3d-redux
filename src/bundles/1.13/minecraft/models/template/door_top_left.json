@@ -1,6 +1,18 @@
 {
     "virtual": true,
+    "import": {
+        "parent": {
+            "parent": "minecraft:block/door_top_left"
+        }
+    },
     "composition": [
+        {
+            "model": "#textures",
+            "optional": true
+        },
+        {
+            "model": "#parent"
+        },
         {
             "model": "#right",
             "transformations": [
