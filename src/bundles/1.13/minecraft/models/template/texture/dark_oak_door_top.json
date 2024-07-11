@@ -1,0 +1,8 @@
+{
+    "textures": {
+        "top": "minecraft:block/dark_oak_door_top"
+    },
+    "mcpacker": {
+        "virtual": true
+    }
+}
