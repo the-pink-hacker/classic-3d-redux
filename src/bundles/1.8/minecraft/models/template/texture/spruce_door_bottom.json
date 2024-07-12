@@ -1,0 +1,8 @@
+{
+    "textures": {
+        "bottom": "minecraft:block/door_spruce_lower"
+    },
+    "mcpacker": {
+        "virtual": true
+    }
+}

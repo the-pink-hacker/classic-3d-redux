@@ -1,0 +1,8 @@
+{
+    "textures": {
+        "top": "minecraft:block/door_spruce_upper"
+    },
+    "mcpacker": {
+        "virtual": true
+    }
+}
