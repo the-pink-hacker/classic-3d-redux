@@ -1,0 +1,7 @@
+{
+    "import": {
+        "left": "minecraft:template/bamboo_door_bottom_left",
+        "textures": "minecraft:template/texture/bamboo_door_bottom"
+    },
+    "composition": "minecraft:template/door_bottom_right"
+}
