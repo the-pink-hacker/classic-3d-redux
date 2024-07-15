@@ -1,0 +1,8 @@
+{
+    "textures": {
+        "top": "minecraft:block/cherry_door_top"
+    },
+    "mcpacker": {
+        "virtual": true
+    }
+}

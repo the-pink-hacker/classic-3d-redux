@@ -1,0 +1,7 @@
+{
+    "import": {
+        "left": "minecraft:template/cherry_door_top_left",
+        "textures": "minecraft:template/texture/cherry_door_top"
+    },
+    "composition": "minecraft:template/door_top_right"
+}
