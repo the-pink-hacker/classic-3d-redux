@@ -1,0 +1,8 @@
+{
+    "textures": {
+        "top": "minecraft:block/crimson_door_top"
+    },
+    "mcpacker": {
+        "virtual": true
+    }
+}

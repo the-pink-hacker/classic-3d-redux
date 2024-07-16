@@ -1,0 +1,7 @@
+{
+    "import": {
+        "left": "minecraft:template/crimson_door_top_left",
+        "textures": "minecraft:template/texture/crimson_door_top"
+    },
+    "composition": "minecraft:template/door_top_right"
+}
