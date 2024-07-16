@@ -1,7 +1,7 @@
 # Classic 3D - Redux
 
 <a href='https://ko-fi.com/P5P5KH154' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-[![Modrinth](https://img.shields.io/modrinth/dt/FRSckbRo)](https://modrinth.com/mod/FRSckbRo "Modrinth")
+[![Modrinth](https://img.shields.io/modrinth/dt/FRSckbRo)](https://modrinth.com/resourcepack/FRSckbRo "Modrinth")
 
 This project aims to rebuild the original Classic 3D resource pack from the ground up.
 The original project grew increasingly complex and harder to maintain.
