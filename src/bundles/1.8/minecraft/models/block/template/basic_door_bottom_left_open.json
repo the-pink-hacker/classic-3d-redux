@@ -1,0 +1,6 @@
+{
+    "import": {
+        "right": "minecraft:template/basic_door_bottom_right_open"
+    },
+    "composition": "minecraft:template/door_bottom_left_open"
+}

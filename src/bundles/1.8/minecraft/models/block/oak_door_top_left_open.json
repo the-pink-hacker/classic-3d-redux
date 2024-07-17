@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/basic_door_top_left_open",
+    "textures": {
+        "top": "minecraft:block/door_wood_upper"
+    }
+}

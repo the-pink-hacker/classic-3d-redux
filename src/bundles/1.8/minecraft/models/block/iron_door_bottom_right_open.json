@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/basic_door_bottom_right_open",
+    "textures": {
+        "bottom": "minecraft:block/door_iron_lower"
+    }
+}

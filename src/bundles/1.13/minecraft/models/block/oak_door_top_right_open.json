@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:block/template/basic_door_top",
+    "parent": "minecraft:block/template/basic_door_top_right_open",
     "textures": {
         "top": "minecraft:block/oak_door_top"
     }
