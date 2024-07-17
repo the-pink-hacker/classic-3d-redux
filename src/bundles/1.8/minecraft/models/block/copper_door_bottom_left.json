@@ -1,6 +1,0 @@
-{
-    "import": {
-        "right": "minecraft:template/copper_door_bottom_right"
-    },
-    "composition": "minecraft:template/door_bottom_left"
-}
