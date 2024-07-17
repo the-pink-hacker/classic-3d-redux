@@ -15,12 +15,17 @@
         },
         {
             "model": "#right",
+            "optional": true,
             "transformations": [
                 {
                     "type": "flip",
                     "axis": "z"
                 }
             ]
+        },
+        {
+            "model": "#left",
+            "optional": true
         }
     ]
 }
