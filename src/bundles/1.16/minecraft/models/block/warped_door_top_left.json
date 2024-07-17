@@ -1,0 +1,7 @@
+{
+    "import": {
+        "left": "minecraft:template/warped_door_top_left",
+        "textures": "minecraft:template/texture/warped_door_top"
+    },
+    "composition": "minecraft:template/door_top_left"
+}
