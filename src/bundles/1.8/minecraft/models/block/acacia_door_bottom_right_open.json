@@ -1,0 +1,7 @@
+{
+    "import": {
+        "right": "minecraft:template/acacia_door_bottom_right_open",
+        "textures": "minecraft:template/texture/acacia_door_bottom"
+    },
+    "composition": "minecraft:template/door_bottom_right_open"
+}

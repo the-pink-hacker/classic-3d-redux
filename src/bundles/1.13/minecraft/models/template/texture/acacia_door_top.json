@@ -1,0 +1,8 @@
+{
+    "textures": {
+        "top": "minecraft:block/acacia_door_top"
+    },
+    "mcpacker": {
+        "virtual": true
+    }
+}
