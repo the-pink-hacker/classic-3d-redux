@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/tall_grass",
+    "mcpacker": {
+        "virtual": true
+    }
+}

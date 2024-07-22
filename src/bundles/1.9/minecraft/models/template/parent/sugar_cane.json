@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/tinted_cross",
+    "mcpacker": {
+        "virtual": true
+    }
+}

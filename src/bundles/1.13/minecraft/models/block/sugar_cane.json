@@ -1,0 +1,22 @@
+{
+    "import": {
+        "center": "minecraft:template/sugar_cane",
+        "textures": {
+            "textures": {
+                "cross": "minecraft:block/sugar_cane"
+            }
+        },
+        "parent": "minecraft:template/parent/sugar_cane"
+    },
+    "composition": [
+        {
+            "model": "#center"
+        },
+        {
+            "model": "#textures"
+        },
+        {
+            "model": "#parent"
+        }
+    ]
+}
