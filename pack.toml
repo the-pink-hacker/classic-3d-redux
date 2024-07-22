@@ -49,6 +49,36 @@ offset = 0.0078125
 intersection = 0
 cube_check = true
 
+[[pack.zfighting_modifiers]]
+direction = "north"
+offset = 0.0078125
+intersection = -0.5
+
+[[pack.zfighting_modifiers]]
+direction = "east"
+offset = 0.0078125
+intersection = 16.5
+
+[[pack.zfighting_modifiers]]
+direction = "south"
+offset = 0.0078125
+intersection = 16.5
+
+[[pack.zfighting_modifiers]]
+direction = "west"
+offset = 0.0078125
+intersection = -0.5
+
+[[pack.zfighting_modifiers]]
+direction = "up"
+offset = 0.0078125
+intersection = 16.5
+
+[[pack.zfighting_modifiers]]
+direction = "down"
+offset = 0.0078125
+intersection = -0.5
+
 [profile.debug]
 output_type = "uncompressed"
 relocation = "symbolic"
