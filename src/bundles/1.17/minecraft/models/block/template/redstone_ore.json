@@ -1,0 +1,6 @@
+{
+    "import": {
+        "face": "minecraft:template/face/redstone_ore"
+    },
+    "composition": "minecraft:template/cube_all"
+}

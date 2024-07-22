@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/redstone_ore",
+    "textures": {
+        "all": "minecraft:block/deepslate_redstone_ore"
+    }
+}
