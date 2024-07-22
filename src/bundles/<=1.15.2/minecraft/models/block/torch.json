@@ -1,0 +1,18 @@
+{
+    "import": {
+        "center": "minecraft:template/torch",
+        "textures": {
+            "textures": {
+                "torch": "minecraft:block/torch"
+            }
+        }
+    },
+    "composition": [
+        {
+            "model": "#center"
+        },
+        {
+            "model": "#textures"
+        }
+    ]
+}

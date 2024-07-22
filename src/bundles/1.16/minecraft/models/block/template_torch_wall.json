@@ -1,0 +1,10 @@
+{
+    "import": {
+        "center": "minecraft:template/torch_wall"
+    },
+    "composition": [
+        {
+            "model": "#center"
+        }
+    ]
+}
