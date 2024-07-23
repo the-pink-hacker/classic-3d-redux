@@ -1,0 +1,13 @@
+{
+    "import": {
+        "textures": {
+            "textures": {
+                "inside": "minecraft:classic-3d/block/jack_o_lantern_inside",
+                "front": "minecraft:block/jack_o_lantern",
+                "torch": "minecraft:block/torch"
+            }
+        },
+        "torch": "minecraft:block/template_torch"
+    },
+    "composition": "minecraft:template/carved_pumpkin"
+}

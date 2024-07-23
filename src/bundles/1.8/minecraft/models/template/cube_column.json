@@ -3,9 +3,6 @@
     "import": {
         "center": {
             "parent": "minecraft:block/cube_column",
-            "textures": {
-                "particle": "#side"
-            },
             "elements": [
                 {
                     "from": [

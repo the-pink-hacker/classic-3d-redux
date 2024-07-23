@@ -1,0 +1,11 @@
+{
+    "import": {
+        "textures": {
+            "textures": {
+                "inside": "minecraft:classic-3d/block/carved_pumpkin_inside",
+                "front": "minecraft:block/carved_pumpkin"
+            }
+        }
+    },
+    "composition": "minecraft:template/carved_pumpkin"
+}

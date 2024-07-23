@@ -1,0 +1,66 @@
+{
+    "virtual": true,
+    "import": {
+        "top": "minecraft:template/face/pumpkin_top",
+        "template_textures": {
+            "parent": "minecraft:block/orientable",
+            "textures": {
+                "side": "minecraft:block/pumpkin_side",
+                "top": "minecraft:block/pumpkin_top"
+            }
+        },
+        "center": "minecraft:template/center/carved_pumpkin"
+    },
+    "composition": [
+        {
+            "model": "#center"
+        },
+        {
+            "model": "#template_textures"
+        },
+        {
+            "model": "#textures",
+            "optional": true
+        },
+        {
+            "model": "#top",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 90,
+                    "y": 180
+                }
+            ],
+            "textures": {
+                "all": "#top"
+            }
+        },
+        {
+            "model": "#top",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 270,
+                    "y": 180
+                }
+            ],
+            "textures": {
+                "all": "#top"
+            }
+        },
+        {
+            "model": "#torch",
+            "optional": true,
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
