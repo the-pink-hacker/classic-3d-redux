@@ -1,0 +1,12 @@
+{
+    "import": {
+        "end": "minecraft:template/face/pumpkin_top",
+        "textures": {
+            "textures": {
+                "side": "minecraft:block/pumpkin_side",
+                "end": "minecraft:block/pumpkin_top"
+            }
+        }
+    },
+    "composition": "minecraft:template/cube_column"
+}
