@@ -13,7 +13,7 @@
                 "east": {"uv": [7, 8, 9, 16], "texture": "#torch"},
                 "south": {"uv": [7, 8, 9, 16], "texture": "#torch"},
                 "west": {"uv": [7, 8, 9, 16], "texture": "#torch"},
-                "down": {"uv": [7, 14, 9, 16], "texture": "#torch", "cullface": "down"}
+                "down": {"uv": [7, 14, 9, 16], "texture": "#torch"}
             }
         },
         {

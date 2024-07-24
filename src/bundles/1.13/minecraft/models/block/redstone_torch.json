@@ -1,0 +1,18 @@
+{
+    "import": {
+        "center": "minecraft:template/redstone_torch",
+        "textures": {
+            "textures": {
+                "torch": "minecraft:block/redstone_torch"
+            }
+        }
+    },
+    "composition": [
+        {
+            "model": "#center"
+        },
+        {
+            "model": "#textures"
+        }
+    ]
+}
