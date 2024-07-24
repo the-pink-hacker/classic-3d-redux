@@ -7,7 +7,7 @@
                 "torch": "minecraft:block/torch"
             }
         },
-        "torch": "minecraft:block/template_torch"
+        "torch": "minecraft:template/torch"
     },
     "composition": "minecraft:template/carved_pumpkin"
 }
