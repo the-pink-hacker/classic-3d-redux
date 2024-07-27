@@ -3,7 +3,8 @@
         "center": "minecraft:template/center/lily_pad",
         "textures": {
             "textures": {
-                "texture": "minecraft:block/waterlily"
+                "texture": "minecraft:block/waterlily",
+                "particle": "minecraft:block/waterlily"
             }
         }
     },
