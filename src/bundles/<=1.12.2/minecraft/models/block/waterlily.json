@@ -1,0 +1,18 @@
+{
+    "import": {
+        "center": "minecraft:template/center/lily_pad",
+        "textures": {
+            "textures": {
+                "texture": "minecraft:block/waterlily"
+            }
+        }
+    },
+    "composition": [
+        {
+            "model": "#textures"
+        },
+        {
+            "model": "center"
+        }
+    ]
+}
