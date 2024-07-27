@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:block/template/plank_stairs_top_inner_nw",
+    "parent": "minecraft:block/template/plank_stairs_top_outer_nw",
     "textures": {
         "all": "minecraft:block/mangrove_planks"
     }
