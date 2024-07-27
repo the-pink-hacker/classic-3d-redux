@@ -1,0 +1,18 @@
+{
+    "import": {
+        "face": "minecraft:template/face/mud_bricks",
+        "quarter_left": "minecraft:template/face/mud_bricks_q2",
+        "quarter_right": "minecraft:template/face/mud_bricks_q1",
+        "quarter_top": "minecraft:template/face/mud_bricks_q2",
+        "side_front": "minecraft:template/face/mud_bricks_half_bottom",
+        "side_left": "minecraft:template/face/mud_bricks_l1",
+        "side_right": "minecraft:template/face/mud_bricks_l2",
+        "top": "minecraft:template/face/mud_bricks_l2",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/mud_bricks"
+            }
+        }
+    },
+    "composition": "minecraft:template/stairs_all_outer_nw"
+}

@@ -43,8 +43,7 @@
                     }
                 }
             ]
-        },
-        "face": "minecraft:block/template/end_stone_bricks_face"
+        }
     },
     "composition": [
         {

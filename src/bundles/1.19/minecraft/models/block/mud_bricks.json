@@ -1,0 +1,11 @@
+{
+    "import": {
+        "face": "minecraft:template/face/mud_bricks",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/mud_bricks"
+            }
+        }
+    },
+    "composition": "minecraft:template/cube_all"
+}

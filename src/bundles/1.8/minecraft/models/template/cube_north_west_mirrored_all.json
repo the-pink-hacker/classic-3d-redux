@@ -1,0 +1,89 @@
+{
+    "virtual": true,
+    "import": {
+        "center": "minecraft:template/center/cube_north_west_mirrored",
+        "parent": {
+            "parent": "minecraft:block/cube_north_west_mirrored_all"
+        }
+    },
+    "composition": [
+        {
+            "model": "#textures",
+            "optional": true
+        },
+        {
+            "model": "#parent"
+        },
+        {
+            "model": "#center",
+            "textures": {
+                "north": "#all",
+                "east": "#all",
+                "south": "#all",
+                "west": "#all",
+                "up": "#all",
+                "down": "#all"
+            }
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "flip",
+                    "axis": "x"
+                }
+            ]
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "flip",
+                    "axis": "x"
+                },
+                {
+                    "type": "rotate",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 90,
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#face",
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 270,
+                    "y": 180
+                }
+            ]
+        }
+    ]
+}
