@@ -1,4 +1,5 @@
-[redirect]
+[[modifiers]]
+type = "redirect"
 affect = "path"
 asset_type = "texture"
 from = "minecraft:block"

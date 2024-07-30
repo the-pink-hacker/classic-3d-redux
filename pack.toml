@@ -13,72 +13,6 @@ type = "text"
 text = "Classic Minecraft look & feel with revamped 3D models"
 color = "aqua"
 
-[[pack.zfighting_modifiers]]
-direction = "north"
-offset = 0.0078125
-intersection = 0
-cube_check = true
-
-[[pack.zfighting_modifiers]]
-direction = "east"
-offset = 0.0078125
-intersection = 16
-cube_check = true
-
-[[pack.zfighting_modifiers]]
-direction = "south"
-offset = 0.0078125
-intersection = 16
-cube_check = true
-
-[[pack.zfighting_modifiers]]
-direction = "west"
-offset = 0.0078125
-intersection = 0
-cube_check = true
-
-[[pack.zfighting_modifiers]]
-direction = "up"
-offset = 0.0078125
-intersection = 16
-cube_check = true
-
-[[pack.zfighting_modifiers]]
-direction = "down"
-offset = 0.0078125
-intersection = 0
-cube_check = true
-
-[[pack.zfighting_modifiers]]
-direction = "north"
-offset = 0.0078125
-intersection = -0.5
-
-[[pack.zfighting_modifiers]]
-direction = "east"
-offset = 0.0078125
-intersection = 16.5
-
-[[pack.zfighting_modifiers]]
-direction = "south"
-offset = 0.0078125
-intersection = 16.5
-
-[[pack.zfighting_modifiers]]
-direction = "west"
-offset = 0.0078125
-intersection = -0.5
-
-[[pack.zfighting_modifiers]]
-direction = "up"
-offset = 0.0078125
-intersection = 16.5
-
-[[pack.zfighting_modifiers]]
-direction = "down"
-offset = 0.0078125
-intersection = -0.5
-
 [profile.debug]
 output_type = "uncompressed"
 relocation = "symbolic"
@@ -333,7 +267,6 @@ bundles = [
     "<=1.15.2",
 ]
 minecraft_versions = ["1.12", "1.12.1", "1.12.2"]
-redirects = "old_textures"
 
 [build.1-12.pack]
 format = 3
@@ -357,7 +290,6 @@ bundles = [
     "<=1.15.2",
 ]
 minecraft_versions = ["1.11", "1.11.1", "1.11.2"]
-redirects = "old_textures"
 
 [build.1-11.pack]
 format = 3
@@ -381,7 +313,6 @@ bundles = [
     "<=1.15.2",
 ]
 minecraft_versions = ["1.10", "1.10.1", "1.10.2"]
-redirects = "old_textures"
 
 [build.1-10.pack]
 format = 2
@@ -404,7 +335,6 @@ bundles = [
     "<=1.15.2",
 ]
 minecraft_versions = ["1.9", "1.9.1", "1.9.2", "1.9.3", "1.9.4"]
-redirects = "old_textures"
 
 [build.1-09.pack]
 format = 2
@@ -430,7 +360,6 @@ minecraft_versions = [
     "1.8.8",
     "1.8.9",
 ]
-redirects = "old_textures"
 
 [build.1-08.pack]
 format = 1

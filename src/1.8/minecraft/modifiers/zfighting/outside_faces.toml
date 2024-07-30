@@ -1,0 +1,35 @@
+[[modifiers]]
+type = "z_fighting"
+direction = "north"
+offset = 0.0078125
+intersection = -0.5
+
+[[modifiers]]
+type = "z_fighting"
+direction = "east"
+offset = 0.0078125
+intersection = 16.5
+
+[[modifiers]]
+type = "z_fighting"
+direction = "south"
+offset = 0.0078125
+intersection = 16.5
+
+[[modifiers]]
+type = "z_fighting"
+direction = "west"
+offset = 0.0078125
+intersection = -0.5
+
+[[modifiers]]
+type = "z_fighting"
+direction = "up"
+offset = 0.0078125
+intersection = 16.5
+
+[[modifiers]]
+type = "z_fighting"
+direction = "down"
+offset = 0.0078125
+intersection = -0.5
