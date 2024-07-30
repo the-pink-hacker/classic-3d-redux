@@ -1,1 +1,5 @@
-order = ["minecraft:zfighting/edges", "minecraft:zfighting/outside_faces"]
+order = [
+    "minecraft:zfighting/edges",
+    "minecraft:zfighting/door_edges",
+    "minecraft:zfighting/outside_faces",
+]

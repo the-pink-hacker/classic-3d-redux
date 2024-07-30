@@ -1,0 +1,36 @@
+[[modifiers]]
+type = "z_fighting"
+direction = "east"
+offset = 0.0078125
+intersection = 3
+cube_check = true
+cube_from = [0, 0, 0]
+cube_to = [3, 16, 16]
+
+[modifiers.selector]
+type = "whitelist"
+
+[modifiers.selector.qualifier]
+type = "items"
+items = [
+    "minecraft:block/spruce_door_bottom_left",
+    "minecraft:block/spruce_door_bottom_left_open",
+    "minecraft:block/spruce_door_bottom_right",
+    "minecraft:block/spruce_door_bottom_right_open",
+    "minecraft:block/spruce_door_top_left",
+    "minecraft:block/spruce_door_top_left_open",
+    "minecraft:block/spruce_door_top_right",
+    "minecraft:block/spruce_door_top_right_open",
+    "minecraft:block/crimson_door_bottom_left",
+    "minecraft:block/crimson_door_bottom_left_open",
+    "minecraft:block/crimson_door_bottom_right",
+    "minecraft:block/crimson_door_bottom_right_open",
+    "minecraft:block/crimson_door_top_left",
+    "minecraft:block/crimson_door_top_left_open",
+    "minecraft:block/crimson_door_top_right",
+    "minecraft:block/crimson_door_top_right_open",
+    "minecraft:block/warped_door_bottom_left",
+    "minecraft:block/warped_door_bottom_left_open",
+    "minecraft:block/warped_door_bottom_right",
+    "minecraft:block/warped_door_bottom_right_open",
+]
