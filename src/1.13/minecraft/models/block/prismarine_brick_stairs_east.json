@@ -1,0 +1,17 @@
+{
+    "import": {
+        "face": "minecraft:template/face/prismarine_bricks",
+        "half_top": "minecraft:template/face/prismarine_bricks_half_top",
+        "half_bottom": "minecraft:template/face/prismarine_bricks_half_bottom",
+        "half_left": "minecraft:template/face/prismarine_bricks_half_left",
+        "half_right": "minecraft:template/face/prismarine_bricks_half_right",
+        "side_left": "minecraft:template/face/prismarine_bricks_l1",
+        "side_right": "minecraft:template/face/prismarine_bricks_l2",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/prismarine_bricks"
+            }
+        }
+    },
+    "composition": "minecraft:template/stairs_all_east"
+}

@@ -1,0 +1,12 @@
+{
+    "import": {
+        "face": "minecraft:template/face/prismarine_bricks",
+        "side": "minecraft:template/face/prismarine_bricks_half_top",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/prismarine_bricks"
+            }
+        }
+    },
+    "composition": "minecraft:template/slab_all_top"
+}
