@@ -1,0 +1,16 @@
+{
+    "virtual": true,
+    "composition": [
+        {
+            "model": "#textures",
+            "optional": true
+        },
+        {
+            "model": "#parent",
+            "optional": true
+        },
+        {
+            "model": "#center"
+        }
+    ]
+}

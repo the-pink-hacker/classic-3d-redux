@@ -1,0 +1,6 @@
+{
+    "import": {
+        "center": "minecraft:template/center/cake"
+    },
+    "composition": "minecraft:template/center"
+}
