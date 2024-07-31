@@ -1,0 +1,28 @@
+{
+    "import": {
+        "candle": "minecraft:block/template_candle",
+        "cake": "minecraft:template/center/cake"
+    },
+    "composition": [
+        {
+            "model": "#cake"
+        },
+        {
+            "model": "#candle",
+            "void_parent": true,
+            "textures": {
+                "all": "#candle"
+            },
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        8,
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
