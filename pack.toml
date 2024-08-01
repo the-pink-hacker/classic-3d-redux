@@ -343,28 +343,3 @@ format = 2
 type = "text"
 text = " 1.9"
 color = "yellow"
-
-# 1.8
-
-[build.1-08]
-bundles = ["1.8", "<=1.9.4", "<=1.12.2", "<=1.15.2"]
-minecraft_versions = [
-    "1.8",
-    "1.8.1",
-    "1.8.2",
-    "1.8.3",
-    "1.8.4",
-    "1.8.5",
-    "1.8.6",
-    "1.8.7",
-    "1.8.8",
-    "1.8.9",
-]
-
-[build.1-08.pack]
-format = 1
-
-[build.1-08.pack.suffix]
-type = "text"
-text = " 1.8"
-color = "yellow"
