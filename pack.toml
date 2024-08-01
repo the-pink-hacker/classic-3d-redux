@@ -2,6 +2,11 @@
 icon = "pack.png"
 modrinth_project_id = "FRSckbRo"
 
+# Sodium
+[[pack.modrinth_dependencies]]
+project_id = "AANobbMI"
+dependency_type = "optional"
+
 [pack.name]
 type = "text"
 text = "Classic 3D"
