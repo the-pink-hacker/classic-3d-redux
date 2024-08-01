@@ -2,7 +2,7 @@
     "import": {
         "textures": {
             "textures": {
-                "inside": "minecraft:classic-3d/block/pumpkin_inside",
+                "inside": "minecraft:classic-3d/block/carved_pumpkin_inside",
                 "front": "minecraft:block/pumpkin_face_off"
             }
         }
