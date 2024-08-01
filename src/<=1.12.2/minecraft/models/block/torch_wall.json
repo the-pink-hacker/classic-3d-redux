@@ -1,10 +1,10 @@
 {
     "import": {
-        "center": "minecraft:template/redstone_torch_wall",
+        "center": "minecraft:template/torch_wall",
         "textures": {
             "textures": {
-                "torch": "minecraft:block/redstone_torch_on",
-                "particle": "minecraft:block/redstone_torch_on"
+                "torch": "minecraft:block/torch_on",
+                "particle": "minecraft:block/torch_on"
             }
         }
     },

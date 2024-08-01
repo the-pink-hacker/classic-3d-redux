@@ -3,7 +3,8 @@
         "center": "minecraft:template/torch",
         "textures": {
             "textures": {
-                "torch": "minecraft:block/torch"
+                "torch": "minecraft:block/torch_on",
+                "particle": "minecraft:block/torch_on"
             }
         }
     },
