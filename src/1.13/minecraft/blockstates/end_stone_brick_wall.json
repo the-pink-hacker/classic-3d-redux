@@ -1,0 +1,80 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "up": true
+            },
+            "apply": {
+                "model": "minecraft:block/end_stone_brick_wall_post"
+            }
+        },
+        {
+            "when": {
+                "north": true
+            },
+            "apply": {
+                "model": "minecraft:block/end_stone_brick_wall_side_north"
+            }
+        },
+        {
+            "when": {
+                "east": true
+            },
+            "apply": {
+                "model": "minecraft:block/end_stone_brick_wall_side_east"
+            }
+        },
+        {
+            "when": {
+                "south": true
+            },
+            "apply": {
+                "model": "minecraft:block/end_stone_brick_wall_side_south"
+            }
+        },
+        {
+            "when": {
+                "west": true
+            },
+            "apply": {
+                "model": "minecraft:block/end_stone_brick_wall_side_west"
+            }
+        },
+        {
+            "when": {
+                "up": false,
+                "north": true,
+                "east": false,
+                "south": true,
+                "west": false
+            },
+            "apply": {
+                "model": "minecraft:block/end_stone_brick_wall_side_ns"
+            }
+        },
+        {
+            "when": {
+                "up": false,
+                "north": false,
+                "east": true,
+                "south": false,
+                "west": true
+            },
+            "apply": {
+                "model": "minecraft:block/end_stone_brick_wall_side_ew"
+            }
+        },
+        {
+            "when": {
+                "up": false,
+                "north": true,
+                "east": true,
+                "south": true,
+                "west": true
+            },
+            "apply": {
+                "model": "minecraft:block/end_stone_brick_wall_cross"
+            }
+        }
+    ]
+}

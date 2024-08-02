@@ -1,0 +1,162 @@
+{
+    "virtual": true,
+    "import": {
+        "parent": "minecraft:template/parent/wall_post",
+        "center": {
+            "elements": [
+                {
+                    "from": [
+                        4,
+                        0,
+                        4
+                    ],
+                    "to": [
+                        12,
+                        16,
+                        12
+                    ],
+                    "faces": {
+                        "north": {
+                            "texture": "#wall"
+                        },
+                        "east": {
+                            "texture": "#wall"
+                        },
+                        "south": {
+                            "texture": "#wall"
+                        },
+                        "west": {
+                            "texture": "#wall"
+                        },
+                        "up": {
+                            "texture": "#wall",
+                            "cullface": "up"
+                        },
+                        "down": {
+                            "texture": "#wall",
+                            "cullface": "down"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "composition": [
+        {
+            "model": "#textures",
+            "optional": true
+        },
+        {
+            "model": "#parent"
+        },
+        {
+            "model": "#center"
+        },
+        {
+            "model": "#center_vertical_half",
+            "cullface": "none",
+            "textures": {
+                "all": "#wall"
+            },
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "model": "#center_vertical_half",
+            "cullface": "none",
+            "textures": {
+                "all": "#wall"
+            },
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        4
+                    ]
+                },
+                {
+                    "type": "rotate",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "model": "#center_vertical_half",
+            "cullface": "none",
+            "textures": {
+                "all": "#wall"
+            },
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        4
+                    ]
+                },
+                {
+                    "type": "rotate",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#center_vertical_half",
+            "cullface": "none",
+            "textures": {
+                "all": "#wall"
+            },
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        4
+                    ]
+                },
+                {
+                    "type": "rotate",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "model": "#center_half",
+            "textures": {
+                "all": "#wall"
+            },
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 90,
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "model": "#center_half",
+            "textures": {
+                "all": "#wall"
+            },
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 270,
+                    "y": 180
+                }
+            ]
+        }
+    ]
+}

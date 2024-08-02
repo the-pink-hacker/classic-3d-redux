@@ -1,0 +1,12 @@
+{
+    "import": {
+        "center_half": "minecraft:template/face/end_stone_bricks_center_half",
+        "center_vertical_half": "minecraft:template/face/end_stone_bricks_center_vertical_half",
+        "textures": {
+            "textures": {
+                "wall": "minecraft:block/end_stone_bricks"
+            }
+        }
+    },
+    "composition": "minecraft:template/wall_post"
+}
