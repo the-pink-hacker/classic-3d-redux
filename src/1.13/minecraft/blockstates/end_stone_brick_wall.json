@@ -10,7 +10,8 @@
         },
         {
             "when": {
-                "north": true
+                "north": true,
+                "up": true
             },
             "apply": {
                 "model": "minecraft:block/end_stone_brick_wall_side_north"
@@ -18,7 +19,8 @@
         },
         {
             "when": {
-                "east": true
+                "east": true,
+                "up": true
             },
             "apply": {
                 "model": "minecraft:block/end_stone_brick_wall_side_east"
@@ -26,7 +28,8 @@
         },
         {
             "when": {
-                "south": true
+                "south": true,
+                "up": true
             },
             "apply": {
                 "model": "minecraft:block/end_stone_brick_wall_side_south"
@@ -34,7 +37,8 @@
         },
         {
             "when": {
-                "west": true
+                "west": true,
+                "up": true
             },
             "apply": {
                 "model": "minecraft:block/end_stone_brick_wall_side_west"

@@ -10,7 +10,8 @@
         },
         {
             "when": {
-                "north": "low"
+                "north": "low",
+                "up": true
             },
             "apply": {
                 "model": "minecraft:block/end_stone_brick_wall_side_north"
@@ -18,7 +19,8 @@
         },
         {
             "when": {
-                "east": "low"
+                "east": "low",
+                "up": true
             },
             "apply": {
                 "model": "minecraft:block/end_stone_brick_wall_side_east"
@@ -26,7 +28,8 @@
         },
         {
             "when": {
-                "south": "low"
+                "south": "low",
+                "up": true
             },
             "apply": {
                 "model": "minecraft:block/end_stone_brick_wall_side_south"
@@ -34,7 +37,8 @@
         },
         {
             "when": {
-                "west": "low"
+                "west": "low",
+                "up": true
             },
             "apply": {
                 "model": "minecraft:block/end_stone_brick_wall_side_west"
@@ -78,7 +82,8 @@
         },
         {
             "when": {
-                "north": "tall"
+                "north": "tall",
+                "up": true
             },
             "apply": {
                 "model": "minecraft:block/end_stone_brick_wall_side_tall_north"
@@ -86,7 +91,8 @@
         },
         {
             "when": {
-                "east": "tall"
+                "east": "tall",
+                "up": true
             },
             "apply": {
                 "model": "minecraft:block/end_stone_brick_wall_side_tall_east"
@@ -94,7 +100,8 @@
         },
         {
             "when": {
-                "south": "tall"
+                "south": "tall",
+                "up": true
             },
             "apply": {
                 "model": "minecraft:block/end_stone_brick_wall_side_tall_south"
@@ -102,7 +109,8 @@
         },
         {
             "when": {
-                "west": "tall"
+                "west": "tall",
+                "up": true
             },
             "apply": {
                 "model": "minecraft:block/end_stone_brick_wall_side_tall_west"

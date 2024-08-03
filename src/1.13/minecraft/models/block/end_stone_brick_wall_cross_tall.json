@@ -1,0 +1,8 @@
+{
+    "import": {
+        "left_right_tall": "minecraft:template/face/end_stone_bricks_left_right_short",
+        "cross": "minecraft:template/face/end_stone_bricks_cross",
+        "textures": "minecraft:template/texture/end_stone_brick_wall"
+    },
+    "composition": "minecraft:template/wall_cross_tall"
+}

@@ -2,44 +2,7 @@
     "virtual": true,
     "import": {
         "parent": "minecraft:template/parent/wall_post",
-        "center": {
-            "elements": [
-                {
-                    "from": [
-                        4,
-                        0,
-                        4
-                    ],
-                    "to": [
-                        12,
-                        16,
-                        12
-                    ],
-                    "faces": {
-                        "north": {
-                            "texture": "#wall"
-                        },
-                        "east": {
-                            "texture": "#wall"
-                        },
-                        "south": {
-                            "texture": "#wall"
-                        },
-                        "west": {
-                            "texture": "#wall"
-                        },
-                        "up": {
-                            "texture": "#wall",
-                            "cullface": "up"
-                        },
-                        "down": {
-                            "texture": "#wall",
-                            "cullface": "down"
-                        }
-                    }
-                }
-            ]
-        }
+        "center": "minecraft:template/center/wall_post"
     },
     "composition": [
         {
