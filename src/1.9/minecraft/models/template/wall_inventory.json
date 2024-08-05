@@ -1,0 +1,26 @@
+{
+    "virtual": true,
+    "import": {
+        "parent": {
+            "parent": "minecraft:block/wall_inventory"
+        }
+    },
+    "composition": [
+        {
+            "model": "#texture",
+            "optional": true
+        },
+        {
+            "model": "#north"
+        },
+        {
+            "model": "#south"
+        },
+        {
+            "model": "#post"
+        },
+        {
+            "model": "#parent"
+        }
+    ]
+}

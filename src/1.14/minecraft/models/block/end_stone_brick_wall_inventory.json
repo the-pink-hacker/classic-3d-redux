@@ -1,0 +1,8 @@
+{
+    "import": {
+        "north": "minecraft:block/end_stone_brick_wall_side_north",
+        "south": "minecraft:block/end_stone_brick_wall_side_south",
+        "post": "minecraft:block/end_stone_brick_wall_post"
+    },
+    "composition": "minecraft:template/wall_inventory"
+}
