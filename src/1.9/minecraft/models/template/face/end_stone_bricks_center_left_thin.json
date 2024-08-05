@@ -1,0 +1,29 @@
+{
+    "elements": [
+        {
+            "from": [12, 5, -0.5],
+            "to": [16, 8, 0],
+            "faces": {
+                "north": {"uv": [0, 8, 4, 11], "texture": "#all", "cullface": "north"},
+                "east": {"uv": [0, 8, 1, 11], "texture": "#all", "cullface": "north"},
+                "west": {"uv": [3, 8, 4, 11], "texture": "#all", "cullface": "north"},
+                "up": {"uv": [4, 8, 0, 9], "texture": "#all", "cullface": "north"},
+                "down": {"uv": [4, 10, 0, 11], "texture": "#all", "cullface": "north"}
+            }
+        },
+        {
+            "from": [12, 9, -0.5],
+            "to": [16, 11, 0],
+            "faces": {
+                "north": {"uv": [0, 5, 4, 7], "texture": "#all", "cullface": "north"},
+                "east": {"uv": [0, 5, 1, 7], "texture": "#all", "cullface": "north"},
+                "west": {"uv": [3, 5, 4, 7], "texture": "#all", "cullface": "north"},
+                "up": {"uv": [4, 5, 0, 6], "texture": "#all", "cullface": "north"},
+                "down": {"uv": [4, 6, 0, 7], "texture": "#all", "cullface": "north"}
+            }
+        }
+    ],
+    "mcpacker": {
+        "virtual": true
+    }
+}

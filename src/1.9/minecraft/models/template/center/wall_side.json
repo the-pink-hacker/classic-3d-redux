@@ -1,0 +1,38 @@
+{
+    "elements": [
+        {
+            "from": [
+                5,
+                0,
+                0
+            ],
+            "to": [
+                11,
+                14,
+                4
+            ],
+            "faces": {
+                "north": {
+                    "texture": "#wall",
+                    "cullface": "north"
+                },
+                "east": {
+                    "texture": "#wall"
+                },
+                "west": {
+                    "texture": "#wall"
+                },
+                "up": {
+                    "texture": "#wall"
+                },
+                "down": {
+                    "texture": "#wall",
+                    "cullface": "down"
+                }
+            }
+        }
+    ],
+    "mcpacker": {
+        "virtual": true
+    }
+}

@@ -1,7 +1,7 @@
 {
     "virtual": true,
     "import": {
-        "parent": "minecraft:template/parent/wall_side_tall_straight",
+        "parent": "minecraft:template/parent/wall_side_tall",
         "center": "minecraft:template/center/wall_side_tall_straight"
     },
     "composition": [

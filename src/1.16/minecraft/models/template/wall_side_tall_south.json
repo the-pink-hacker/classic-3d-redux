@@ -1,8 +1,8 @@
 {
     "virtual": true,
     "import": {
-        "parent": "minecraft:template/parent/wall_side",
-        "center": "minecraft:template/center/wall_side_straight"
+        "parent": "minecraft:template/parent/wall_side_tall",
+        "center": "minecraft:template/center/wall_side_tall"
     },
     "composition": [
         {
@@ -17,25 +17,16 @@
             "transformations": [
                 {
                     "type": "rotate",
-                    "y": 90
+                    "y": 180
                 }
             ]
         },
         {
-            "model": "#short",
-            "cullface": "none",
+            "model": "#center_vertical_thin_tall",
             "textures": {
                 "all": "#wall"
             },
             "transformations": [
-                {
-                    "type": "translate",
-                    "amount": [
-                        0,
-                        0,
-                        5
-                    ]
-                },
                 {
                     "type": "rotate",
                     "y": 180
@@ -43,7 +34,7 @@
             ]
         },
         {
-            "model": "#short",
+            "model": "#left_thin_tall",
             "cullface": "none",
             "textures": {
                 "all": "#wall"
@@ -56,27 +47,7 @@
                         0,
                         5
                     ]
-                }
-            ]
-        },
-        {
-            "model": "#center_vertical_thin_short",
-            "textures": {
-                "all": "#wall"
-            },
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 90
-                }
-            ]
-        },
-        {
-            "model": "#center_vertical_thin_short",
-            "textures": {
-                "all": "#wall"
-            },
-            "transformations": [
+                },
                 {
                     "type": "rotate",
                     "y": 270
@@ -84,7 +55,7 @@
             ]
         },
         {
-            "model": "#center_horizontal_thin",
+            "model": "#right_thin_tall",
             "cullface": "none",
             "textures": {
                 "all": "#wall"
@@ -95,9 +66,21 @@
                     "amount": [
                         0,
                         0,
-                        2
+                        5
                     ]
                 },
+                {
+                    "type": "rotate",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "model": "#center_bottom_thin",
+            "textures": {
+                "all": "#wall"
+            },
+            "transformations": [
                 {
                     "type": "rotate",
                     "x": 90,
@@ -106,7 +89,7 @@
             ]
         },
         {
-            "model": "#center_horizontal_thin",
+            "model": "#center_top_thin",
             "textures": {
                 "all": "#wall"
             },

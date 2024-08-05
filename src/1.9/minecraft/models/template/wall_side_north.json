@@ -2,7 +2,7 @@
     "virtual": true,
     "import": {
         "parent": "minecraft:template/parent/wall_side",
-        "center": "minecraft:template/center/wall_cross"
+        "center": "minecraft:template/center/wall_side"
     },
     "composition": [
         {
@@ -16,24 +16,13 @@
             "model": "#center"
         },
         {
-            "model": "#left_right_short",
-            "cullface": "none",
+            "model": "#center_vertical_thin_short",
             "textures": {
                 "all": "#wall"
-            },
-            "transformations": [
-                {
-                    "type": "translate",
-                    "amount": [
-                        0,
-                        0,
-                        5
-                    ]
-                }
-            ]
+            }
         },
         {
-            "model": "#left_right_short",
+            "model": "#left_thin_short",
             "cullface": "none",
             "textures": {
                 "all": "#wall"
@@ -54,28 +43,7 @@
             ]
         },
         {
-            "model": "#left_right_short",
-            "cullface": "none",
-            "textures": {
-                "all": "#wall"
-            },
-            "transformations": [
-                {
-                    "type": "translate",
-                    "amount": [
-                        0,
-                        0,
-                        5
-                    ]
-                },
-                {
-                    "type": "rotate",
-                    "y": 180
-                }
-            ]
-        },
-        {
-            "model": "#left_right_short",
+            "model": "#right_thin_short",
             "cullface": "none",
             "textures": {
                 "all": "#wall"
@@ -96,7 +64,7 @@
             ]
         },
         {
-            "model": "#cross",
+            "model": "#center_top_thin",
             "cullface": "none",
             "textures": {
                 "all": "#wall"
@@ -118,7 +86,7 @@
             ]
         },
         {
-            "model": "#cross",
+            "model": "#center_bottom_thin",
             "textures": {
                 "all": "#wall"
             },
@@ -127,48 +95,6 @@
                     "type": "rotate",
                     "x": 270,
                     "y": 180
-                }
-            ]
-        },
-        {
-            "model": "#center_vertical_thin_short",
-            "textures": {
-                "all": "#wall"
-            }
-        },
-        {
-            "model": "#center_vertical_thin_short",
-            "textures": {
-                "all": "#wall"
-            },
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 90
-                }
-            ]
-        },
-        {
-            "model": "#center_vertical_thin_short",
-            "textures": {
-                "all": "#wall"
-            },
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 180
-                }
-            ]
-        },
-        {
-            "model": "#center_vertical_thin_short",
-            "textures": {
-                "all": "#wall"
-            },
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "y": 270
                 }
             ]
         }

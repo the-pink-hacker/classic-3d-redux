@@ -1,0 +1,11 @@
+{
+    "import": {
+        "center_top_thin": "minecraft:template/face/end_stone_bricks_center_top_thin",
+        "center_bottom_thin": "minecraft:template/face/end_stone_bricks_center_bottom_thin",
+        "left_thin_short": "minecraft:template/face/end_stone_bricks_left_thin_short",
+        "right_thin_short": "minecraft:template/face/end_stone_bricks_right_thin_short",
+        "center_vertical_thin_short": "minecraft:template/face/end_stone_bricks_center_vertical_thin_short",
+        "textures": "minecraft:template/texture/end_stone_brick_wall"
+    },
+    "composition": "minecraft:template/wall_side_south"
+}
