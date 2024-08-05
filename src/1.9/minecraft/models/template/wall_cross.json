@@ -1,8 +1,8 @@
 {
     "virtual": true,
     "import": {
-        "parent": "minecraft:template/parent/wall_cross_tall",
-        "center": "minecraft:template/center/wall_cross_tall"
+        "parent": "minecraft:template/parent/wall_cross",
+        "center": "minecraft:template/center/wall_cross"
     },
     "composition": [
         {
@@ -16,7 +16,7 @@
             "model": "#center"
         },
         {
-            "model": "#left_right_tall",
+            "model": "#left_right_short",
             "cullface": "none",
             "textures": {
                 "all": "#wall"
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "model": "#left_right_tall",
+            "model": "#left_right_short",
             "cullface": "none",
             "textures": {
                 "all": "#wall"
@@ -54,7 +54,7 @@
             ]
         },
         {
-            "model": "#left_right_tall",
+            "model": "#left_right_short",
             "cullface": "none",
             "textures": {
                 "all": "#wall"
@@ -75,7 +75,7 @@
             ]
         },
         {
-            "model": "#left_right_tall",
+            "model": "#left_right_short",
             "cullface": "none",
             "textures": {
                 "all": "#wall"
@@ -97,10 +97,19 @@
         },
         {
             "model": "#cross",
+            "cullface": "none",
             "textures": {
                 "all": "#wall"
             },
             "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        2
+                    ]
+                },
                 {
                     "type": "rotate",
                     "x": 90,
@@ -122,13 +131,13 @@
             ]
         },
         {
-            "model": "#center_vertical_thin_tall",
+            "model": "#center_vertical_thin_short",
             "textures": {
                 "all": "#wall"
             }
         },
         {
-            "model": "#center_vertical_thin_tall",
+            "model": "#center_vertical_thin_short",
             "textures": {
                 "all": "#wall"
             },
@@ -140,7 +149,7 @@
             ]
         },
         {
-            "model": "#center_vertical_thin_tall",
+            "model": "#center_vertical_thin_short",
             "textures": {
                 "all": "#wall"
             },
@@ -152,7 +161,7 @@
             ]
         },
         {
-            "model": "#center_vertical_thin_tall",
+            "model": "#center_vertical_thin_short",
             "textures": {
                 "all": "#wall"
             },

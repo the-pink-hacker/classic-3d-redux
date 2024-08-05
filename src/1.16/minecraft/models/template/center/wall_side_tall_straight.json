@@ -35,42 +35,6 @@
                     "cullface": "down"
                 }
             }
-        },
-        {
-            "from": [
-                0,
-                0,
-                5
-            ],
-            "to": [
-                16,
-                16,
-                11
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#wall"
-                },
-                "east": {
-                    "texture": "#wall",
-                    "cullface": "east"
-                },
-                "south": {
-                    "texture": "#wall"
-                },
-                "west": {
-                    "texture": "#wall",
-                    "cullface": "west"
-                },
-                "up": {
-                    "texture": "#wall",
-                    "cullface": "up"
-                },
-                "down": {
-                    "texture": "#wall",
-                    "cullface": "down"
-                }
-            }
         }
     ],
     "mcpacker": {

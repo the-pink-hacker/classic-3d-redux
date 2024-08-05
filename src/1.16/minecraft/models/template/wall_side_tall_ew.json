@@ -1,8 +1,8 @@
 {
     "virtual": true,
     "import": {
-        "parent": "minecraft:template/parent/wall_cross",
-        "center": "minecraft:template/center/wall_cross"
+        "parent": "minecraft:template/parent/wall_side_tall_straight",
+        "center": "minecraft:template/center/wall_side_tall_straight"
     },
     "composition": [
         {
@@ -13,40 +13,8 @@
             "model": "#parent"
         },
         {
-            "model": "#center"
-        },
-        {
-            "model": "#left_right_short",
-            "cullface": "none",
-            "textures": {
-                "all": "#wall"
-            },
+            "model": "#center",
             "transformations": [
-                {
-                    "type": "translate",
-                    "amount": [
-                        0,
-                        0,
-                        5
-                    ]
-                }
-            ]
-        },
-        {
-            "model": "#left_right_short",
-            "cullface": "none",
-            "textures": {
-                "all": "#wall"
-            },
-            "transformations": [
-                {
-                    "type": "translate",
-                    "amount": [
-                        0,
-                        0,
-                        5
-                    ]
-                },
                 {
                     "type": "rotate",
                     "y": 90
@@ -54,7 +22,7 @@
             ]
         },
         {
-            "model": "#left_right_short",
+            "model": "#face",
             "cullface": "none",
             "textures": {
                 "all": "#wall"
@@ -75,7 +43,7 @@
             ]
         },
         {
-            "model": "#left_right_short",
+            "model": "#face",
             "cullface": "none",
             "textures": {
                 "all": "#wall"
@@ -88,7 +56,27 @@
                         0,
                         5
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "model": "#center_vertical_thin_tall",
+            "textures": {
+                "all": "#wall"
+            },
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "model": "#center_vertical_thin_tall",
+            "textures": {
+                "all": "#wall"
+            },
+            "transformations": [
                 {
                     "type": "rotate",
                     "y": 270
@@ -96,20 +84,11 @@
             ]
         },
         {
-            "model": "#cross",
-            "cullface": "none",
+            "model": "#center_horizontal_thin",
             "textures": {
                 "all": "#wall"
             },
             "transformations": [
-                {
-                    "type": "translate",
-                    "amount": [
-                        0,
-                        0,
-                        2
-                    ]
-                },
                 {
                     "type": "rotate",
                     "x": 90,
@@ -118,7 +97,7 @@
             ]
         },
         {
-            "model": "#cross",
+            "model": "#center_horizontal_thin",
             "textures": {
                 "all": "#wall"
             },
