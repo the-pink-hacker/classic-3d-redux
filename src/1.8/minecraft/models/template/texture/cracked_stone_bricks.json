@@ -1,0 +1,8 @@
+{
+    "textures": {
+        "all": "minecraft:block/stonebrick_cracked"
+    },
+    "mcpacker": {
+        "virtual": true
+    }
+}

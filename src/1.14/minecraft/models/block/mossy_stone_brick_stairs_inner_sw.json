@@ -1,0 +1,9 @@
+{
+    "import": {
+        "parent": {
+            "parent": "minecraft:block/template/stone_brick_stairs_inner_sw"
+        },
+        "texture": "minecraft:template/texture/mossy_stone_bricks"
+    },
+    "composition": "minecraft:template/parent"
+}

@@ -1,0 +1,8 @@
+{
+    "textures": {
+        "all": "minecraft:block/stonebrick_mossy"
+    },
+    "mcpacker": {
+        "virtual": true
+    }
+}

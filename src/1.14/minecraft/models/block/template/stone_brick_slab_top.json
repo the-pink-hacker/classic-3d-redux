@@ -1,0 +1,7 @@
+{
+    "import": {
+        "face": "minecraft:template/face/stone_bricks",
+        "side": "minecraft:template/face/stone_bricks_half_top"
+    },
+    "composition": "minecraft:template/slab_all_top"
+}

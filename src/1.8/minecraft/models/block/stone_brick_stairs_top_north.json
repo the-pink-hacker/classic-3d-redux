@@ -1,0 +1,7 @@
+{
+    "import": {
+        "parent": "minecraft:block/template/stone_brick_stairs_top_north",
+        "texture": "minecraft:template/texture/stone_bricks"
+    },
+    "composition": "minecraft:template/parent"
+}

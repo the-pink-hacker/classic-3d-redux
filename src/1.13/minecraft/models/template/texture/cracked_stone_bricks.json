@@ -1,0 +1,8 @@
+{
+    "textures": {
+        "all": "minecraft:block/cracked_stone_bricks"
+    },
+    "mcpacker": {
+        "virtual": true
+    }
+}

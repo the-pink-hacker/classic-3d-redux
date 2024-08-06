@@ -1,6 +1,0 @@
-{
-    "parent": "minecraft:block/template/stone_brick_stairs_west",
-    "textures": {
-        "all": "minecraft:block/stone_bricks"
-    }
-}
