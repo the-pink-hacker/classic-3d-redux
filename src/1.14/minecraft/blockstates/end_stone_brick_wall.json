@@ -5,7 +5,7 @@
                 "up": true
             },
             "apply": {
-                "model": "minecraft:block/end_stone_brick_wall_post"
+                "model": "minecraft:block/brick_wall_post"
             }
         },
         {
@@ -14,7 +14,7 @@
                 "up": true
             },
             "apply": {
-                "model": "minecraft:block/end_stone_brick_wall_side_north"
+                "model": "minecraft:block/brick_wall_side_north"
             }
         },
         {
@@ -23,7 +23,7 @@
                 "up": true
             },
             "apply": {
-                "model": "minecraft:block/end_stone_brick_wall_side_east"
+                "model": "minecraft:block/brick_wall_side_east"
             }
         },
         {
@@ -32,7 +32,7 @@
                 "up": true
             },
             "apply": {
-                "model": "minecraft:block/end_stone_brick_wall_side_south"
+                "model": "minecraft:block/brick_wall_side_south"
             }
         },
         {
@@ -41,7 +41,7 @@
                 "up": true
             },
             "apply": {
-                "model": "minecraft:block/end_stone_brick_wall_side_west"
+                "model": "minecraft:block/brick_wall_side_west"
             }
         },
         {
@@ -53,7 +53,7 @@
                 "west": false
             },
             "apply": {
-                "model": "minecraft:block/end_stone_brick_wall_side_ns"
+                "model": "minecraft:block/brick_wall_side_ns"
             }
         },
         {
@@ -65,7 +65,7 @@
                 "west": true
             },
             "apply": {
-                "model": "minecraft:block/end_stone_brick_wall_side_ew"
+                "model": "minecraft:block/brick_wall_side_ew"
             }
         },
         {
@@ -77,7 +77,7 @@
                 "west": true
             },
             "apply": {
-                "model": "minecraft:block/end_stone_brick_wall_cross"
+                "model": "minecraft:block/brick_wall_cross"
             }
         }
     ]

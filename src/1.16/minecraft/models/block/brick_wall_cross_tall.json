@@ -1,0 +1,9 @@
+{
+    "import": {
+        "left_right_tall": "minecraft:template/face/bricks_left_right_tall",
+        "center_vertical_thin_tall": "minecraft:template/face/bricks_center_vertical_thin_tall",
+        "cross": "minecraft:template/face/bricks_cross",
+        "textures": "minecraft:template/texture/brick_wall"
+    },
+    "composition": "minecraft:template/wall_cross_tall"
+}
