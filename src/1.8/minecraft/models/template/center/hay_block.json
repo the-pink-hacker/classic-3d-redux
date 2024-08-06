@@ -1,7 +1,6 @@
 {
-    "parent": "block/cube_column",
+    "parent": "minecraft:block/cube_column",
     "textures": {
-        "particle": "block/hay_block_side",
         "side": "block/hay_block_side",
         "end": "block/hay_block_top"
     },
