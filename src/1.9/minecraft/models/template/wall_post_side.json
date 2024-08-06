@@ -16,28 +16,19 @@
             "model": "#center"
         },
         {
-            "model": "#center_half",
+            "model": "#center_vertical_half",
+            "cullface": "none",
             "textures": {
                 "all": "#wall"
             },
             "transformations": [
                 {
-                    "type": "rotate",
-                    "x": 90,
-                    "y": 180
-                }
-            ]
-        },
-        {
-            "model": "#center_half",
-            "textures": {
-                "all": "#wall"
-            },
-            "transformations": [
-                {
-                    "type": "rotate",
-                    "x": 270,
-                    "y": 180
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        4
+                    ]
                 }
             ]
         }

@@ -11,13 +11,96 @@
             "optional": true
         },
         {
-            "model": "#north"
+            "model": "#north",
+            "cullface": "none"
         },
         {
-            "model": "#south"
+            "model": "#south",
+            "cullface": "none"
         },
         {
-            "model": "#post"
+            "model": "#post",
+            "cullface": "none"
+        },
+        {
+            "model": "#center_vertical_half",
+            "textures": {
+                "all": "#wall"
+            },
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        4
+                    ]
+                },
+                {
+                    "type": "rotate",
+                    "y": 90
+                }
+            ],
+            "cullface": "none"
+        },
+        {
+            "model": "#center_vertical_half",
+            "textures": {
+                "all": "#wall"
+            },
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        4
+                    ]
+                },
+                {
+                    "type": "rotate",
+                    "y": 270
+                }
+            ],
+            "cullface": "none"
+        },
+        {
+            "model": "#center_vertical_half_cutout_short",
+            "textures": {
+                "all": "#wall"
+            },
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        4
+                    ]
+                }
+            ],
+            "cullface": "none"
+        },
+        {
+            "model": "#center_vertical_half_cutout_short",
+            "textures": {
+                "all": "#wall"
+            },
+            "transformations": [
+                {
+                    "type": "translate",
+                    "amount": [
+                        0,
+                        0,
+                        4
+                    ]
+                },
+                {
+                    "type": "rotate",
+                    "y": 180
+                }
+            ],
+            "cullface": "none"
         },
         {
             "model": "#parent"

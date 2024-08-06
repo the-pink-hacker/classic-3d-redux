@@ -2,6 +2,8 @@
     "import": {
         "north": "minecraft:block/end_stone_brick_wall_side_north",
         "south": "minecraft:block/end_stone_brick_wall_side_south",
+        "center_vertical_half": "minecraft:template/face/end_stone_bricks_center_vertical_half",
+        "center_vertical_half_cutout_short": "minecraft:template/face/end_stone_bricks_center_vertical_half_cutout",
         "post": "minecraft:block/end_stone_brick_wall_post"
     },
     "composition": "minecraft:template/wall_inventory"

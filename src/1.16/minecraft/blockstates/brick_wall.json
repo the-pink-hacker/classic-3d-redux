@@ -10,6 +10,84 @@
         },
         {
             "when": {
+                "up": true,
+                "north": "none"
+            },
+            "apply": {
+                "model": "minecraft:block/brick_wall_post_side"
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "east": "none"
+            },
+            "apply": {
+                "model": "minecraft:block/brick_wall_post_side",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "south": "none"
+            },
+            "apply": {
+                "model": "minecraft:block/brick_wall_post_side",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "west": "none"
+            },
+            "apply": {
+                "model": "minecraft:block/brick_wall_post_side",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "north": "low"
+            },
+            "apply": {
+                "model": "minecraft:block/brick_wall_post_side_cutout_short"
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "east": "low"
+            },
+            "apply": {
+                "model": "minecraft:block/brick_wall_post_side_cutout_short",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "south": "low"
+            },
+            "apply": {
+                "model": "minecraft:block/brick_wall_post_side_cutout_short",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "west": "low"
+            },
+            "apply": {
+                "model": "minecraft:block/brick_wall_post_side_cutout_short",
+                "y": 270
+            }
+        },
+        {
+            "when": {
                 "north": "low",
                 "up": true
             },
@@ -114,6 +192,45 @@
             },
             "apply": {
                 "model": "minecraft:block/brick_wall_side_tall_west"
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "north": "tall"
+            },
+            "apply": {
+                "model": "minecraft:block/brick_wall_post_side_cutout_tall"
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "east": "tall"
+            },
+            "apply": {
+                "model": "minecraft:block/brick_wall_post_side_cutout_tall",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "south": "tall"
+            },
+            "apply": {
+                "model": "minecraft:block/brick_wall_post_side_cutout_tall",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "west": "tall"
+            },
+            "apply": {
+                "model": "minecraft:block/brick_wall_post_side_cutout_tall",
+                "y": 270
             }
         },
         {
