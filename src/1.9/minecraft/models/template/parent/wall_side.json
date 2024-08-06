@@ -1,3 +1,6 @@
 {
-    "parent": "minecraft:block/wall_side"
+    "parent": "minecraft:block/wall_side",
+    "mcpacker": {
+        "virtual": true
+    }
 }

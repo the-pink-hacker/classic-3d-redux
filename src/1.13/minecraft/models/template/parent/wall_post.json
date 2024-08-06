@@ -1,3 +1,6 @@
 {
-    "parent": "minecraft:block/template_wall_post"
+    "parent": "minecraft:block/template_wall_post",
+    "mcpacker": {
+        "virtual": true
+    }
 }

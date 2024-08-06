@@ -1,5 +1,8 @@
 {
     "textures": {
         "wall": "minecraft:block/end_stone_bricks"
+    },
+    "mcpacker": {
+        "virtual": true
     }
 }
