@@ -6,11 +6,11 @@
             "optional": true
         },
         {
-            "model": "#parent",
-            "optional": true
+            "model": "#center"
         },
         {
-            "model": "#center"
+            "model": "#parent",
+            "optional": true
         }
     ]
 }

@@ -1,0 +1,6 @@
+{
+    "import": {
+        "center": "minecraft:template/center/hay_block"
+    },
+    "composition": "minecraft:template/center"
+}

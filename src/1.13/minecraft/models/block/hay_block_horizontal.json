@@ -1,0 +1,9 @@
+{
+    "import": {
+        "center": "minecraft:template/center/hay_block",
+        "parent": {
+            "parent": "minecraft:block/cube_column_horizontal"
+        }
+    },
+    "composition": "minecraft:template/center"
+}

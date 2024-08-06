@@ -1,0 +1,24 @@
+{
+    "import": {
+        "center": "minecraft:template/center/cartography_table",
+        "bottom": "minecraft:template/face/planks"
+    },
+    "composition": [
+        {
+            "model": "#center"
+        },
+        {
+            "model": "#bottom",
+            "textures": {
+                "all": "#down"
+            },
+            "transformations": [
+                {
+                    "type": "rotate",
+                    "x": 270,
+                    "y": 180
+                }
+            ]
+        }
+    ]
+}
