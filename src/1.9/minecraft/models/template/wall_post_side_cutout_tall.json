@@ -1,8 +1,7 @@
 {
     "virtual": true,
     "import": {
-        "parent": "minecraft:template/parent/wall_post",
-        "center": "minecraft:template/center/wall_post"
+        "parent": "minecraft:template/parent/wall_post"
     },
     "composition": [
         {
@@ -11,9 +10,6 @@
         },
         {
             "model": "#parent"
-        },
-        {
-            "model": "#center"
         },
         {
             "model": "#center_vertical_half_cutout_tall",
