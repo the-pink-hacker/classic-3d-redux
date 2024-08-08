@@ -45,14 +45,39 @@ STAIR_SUFFIXES = [
     "top_outer_sw",
 ]
 
+WALL_SUFFIXES = [
+    "inventory",
+    "cross",
+    "post",
+    "post_side",
+    "post_side_cutout_short",
+    "side_north",
+    "side_east",
+    "side_south",
+    "side_west",
+    "side_ns",
+    "side_ew",
+]
+
+TALL_WALL_SUFFIXES = [
+    "post_side_cutout_tall",
+    "cross_tall",
+    "side_tall_north",
+    "side_tall_east",
+    "side_tall_south",
+    "side_tall_west",
+    "side_tall_ns",
+    "side_tall_ew",
+]
+
 def main():
-    model = "stone_brick_stairs_"
+    model = "stone_brick_wall_"
 
-    parent = "stone_brick_stairs_"
+    parent = "stone_brick_wall_"
 
-    model_suffixes = STAIR_SUFFIXES
+    model_suffixes = TALL_WALL_SUFFIXES
 
-    model_folder = "src/1.14/minecraft/models/block/"
+    model_folder = "src/1.16/minecraft/models/block/"
     parent_model_id_path = "minecraft:block/template/"
 
     for model_suffix in model_suffixes:
@@ -62,7 +87,7 @@ def main():
         #    parent=parent_model_id,
         #    all="minecraft:block/nether_brick",
         #)
-        model_data = generate_model_textures_template(parent_model_id, "minecraft:template/texture/stone_bricks");
+        model_data = generate_model_textures_template(parent_model_id, "minecraft:template/texture/stone_brick_wall");
 
         with open(model_file, "w") as file:
             json.dump(model_data, file, indent=4)

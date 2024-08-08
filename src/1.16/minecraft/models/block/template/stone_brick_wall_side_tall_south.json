@@ -1,0 +1,11 @@
+{
+    "import": {
+        "center_top_thin": "minecraft:template/face/stone_bricks_center_top_thin",
+        "center_bottom_thin": "minecraft:template/face/stone_bricks_center_bottom_thin",
+        "left_thin_tall": "minecraft:template/face/stone_bricks_left_thin_tall",
+        "right_thin_tall": "minecraft:template/face/stone_bricks_right_thin_tall",
+        "center_vertical_thin_tall": "minecraft:template/face/stone_bricks_center_vertical_thin_tall",
+        "textures": "minecraft:template/texture/stone_brick_wall"
+    },
+    "composition": "minecraft:template/wall_side_tall_south"
+}

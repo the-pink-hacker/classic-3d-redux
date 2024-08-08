@@ -1,0 +1,8 @@
+{
+    "textures": {
+        "wall": "minecraft:block/stone_bricks"
+    },
+    "mcpacker": {
+        "virtual": true
+    }
+}
