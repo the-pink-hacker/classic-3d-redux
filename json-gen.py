@@ -71,13 +71,13 @@ TALL_WALL_SUFFIXES = [
 ]
 
 def main():
-    model = "stone_brick_wall_"
+    model = "mossy_stone_brick_wall_"
 
     parent = "stone_brick_wall_"
 
-    model_suffixes = TALL_WALL_SUFFIXES
+    model_suffixes = WALL_SUFFIXES
 
-    model_folder = "src/1.16/minecraft/models/block/"
+    model_folder = "src/1.14/minecraft/models/block/"
     parent_model_id_path = "minecraft:block/template/"
 
     for model_suffix in model_suffixes:
@@ -87,7 +87,7 @@ def main():
         #    parent=parent_model_id,
         #    all="minecraft:block/nether_brick",
         #)
-        model_data = generate_model_textures_template(parent_model_id, "minecraft:template/texture/stone_brick_wall");
+        model_data = generate_model_textures_template(parent_model_id, "minecraft:template/texture/mossy_stone_brick_wall");
 
         with open(model_file, "w") as file:
             json.dump(model_data, file, indent=4)

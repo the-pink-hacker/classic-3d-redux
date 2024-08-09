@@ -1,0 +1,162 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "up": true
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_post"
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "north": false
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_post_side"
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "east": false
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_post_side",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "south": false
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_post_side",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "west": false
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_post_side",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "north": true
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_post_side_cutout_short"
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "east": true
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_post_side_cutout_short",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "south": true
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_post_side_cutout_short",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "up": true,
+                "west": true
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_post_side_cutout_short",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "north": true,
+                "up": true
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_side_north"
+            }
+        },
+        {
+            "when": {
+                "east": true,
+                "up": true
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_side_east"
+            }
+        },
+        {
+            "when": {
+                "south": true,
+                "up": true
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_side_south"
+            }
+        },
+        {
+            "when": {
+                "west": true,
+                "up": true
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_side_west"
+            }
+        },
+        {
+            "when": {
+                "up": false,
+                "north": true,
+                "east": false,
+                "south": true,
+                "west": false
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_side_ns"
+            }
+        },
+        {
+            "when": {
+                "up": false,
+                "north": false,
+                "east": true,
+                "south": false,
+                "west": true
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_side_ew"
+            }
+        },
+        {
+            "when": {
+                "up": false,
+                "north": true,
+                "east": true,
+                "south": true,
+                "west": true
+            },
+            "apply": {
+                "model": "minecraft:block/mossy_stone_brick_wall_cross"
+            }
+        }
+    ]
+}

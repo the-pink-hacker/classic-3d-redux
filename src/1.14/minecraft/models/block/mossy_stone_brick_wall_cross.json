@@ -1,0 +1,9 @@
+{
+    "import": {
+        "parent": {
+            "parent": "minecraft:block/template/stone_brick_wall_cross"
+        },
+        "texture": "minecraft:template/texture/mossy_stone_brick_wall"
+    },
+    "composition": "minecraft:template/parent"
+}
