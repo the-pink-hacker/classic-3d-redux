@@ -1,0 +1,8 @@
+{
+    "textures": {
+        "wall": "minecraft:block/polished_blackstone_bricks"
+    },
+    "mcpacker": {
+        "virtual": true
+    }
+}
