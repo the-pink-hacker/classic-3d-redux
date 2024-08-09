@@ -1,0 +1,9 @@
+{
+    "import": {
+        "parent": {
+            "parent": "minecraft:block/template/stone_brick_wall_side_tall_east"
+        },
+        "texture": "minecraft:template/texture/tuff_brick_wall"
+    },
+    "composition": "minecraft:template/parent"
+}
