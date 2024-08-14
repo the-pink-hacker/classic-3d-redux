@@ -1,0 +1,7 @@
+{
+    "import": {
+        "parent": "minecraft:block/template/basic_trapdoor_open",
+        "texture": "minecraft:template/texture/iron_trapdoor"
+    },
+    "composition": "minecraft:template/parent"
+}
