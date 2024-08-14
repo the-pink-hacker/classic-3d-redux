@@ -1,0 +1,6 @@
+{
+    "import": {
+        "bottom": "minecraft:template/center/basic_trapdoor_bottom"
+    },
+    "composition": "minecraft:template/trapdoor_top"
+}

@@ -1,0 +1,8 @@
+{
+    "textures": {
+        "texture": "minecraft:block/trapdoor"
+    },
+    "mcpacker": {
+        "virtual": true
+    }
+}

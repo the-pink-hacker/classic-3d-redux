@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/trapdoor_open",
+    "mcpacker": {
+        "virtual": true
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "virtual": true,
+    "import": {
+        "parent": "minecraft:template/parent/trapdoor_bottom"
+    },
+    "composition": [
+        {
+            "model": "#parent"
+        },
+        {
+            "model": "#textures",
+            "optional": true
+        },
+        {
+            "model": "#bottom",
+            "cullface": "auto"
+        }
+    ]
+}
