@@ -1,0 +1,6 @@
+{
+    "import": {
+        "side": "minecraft:template/face/cut_sandstone"
+    },
+    "composition": "minecraft:template/cube_column"
+}

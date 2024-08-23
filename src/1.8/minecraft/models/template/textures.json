@@ -1,0 +1,8 @@
+{
+    "virtual": true,
+    "composition": [
+        {
+            "model": "#textures"
+        }
+    ]
+}
