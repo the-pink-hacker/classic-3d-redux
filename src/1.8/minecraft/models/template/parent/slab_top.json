@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/upper_slab",
+    "mcpacker": {
+        "virtual": true
+    }
+}

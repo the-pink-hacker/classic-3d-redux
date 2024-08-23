@@ -1,8 +1,8 @@
 {
     "virtual": true,
     "import": {
+        "parent": "minecraft:template/parent/slab",
         "center": {
-            "parent": "minecraft:block/half_slab",
             "elements": [
                 {
                     "from": [
@@ -46,19 +46,25 @@
     },
     "composition": [
         {
-            "model": "#textures"
+            "model": "#textures",
+            "optional": true
+        },
+        {
+            "model": "#parent"
         },
         {
             "model": "#center"
         },
         {
             "model": "#side",
+            "optional": true,
             "textures": {
                 "all": "#side"
             }
         },
         {
             "model": "#side",
+            "optional": true,
             "transformations": [
                 {
                     "type": "rotate",
@@ -71,6 +77,7 @@
         },
         {
             "model": "#side",
+            "optional": true,
             "transformations": [
                 {
                     "type": "rotate",
@@ -83,6 +90,7 @@
         },
         {
             "model": "#side",
+            "optional": true,
             "transformations": [
                 {
                     "type": "rotate",
@@ -95,6 +103,7 @@
         },
         {
             "model": "#top",
+            "optional": true,
             "transformations": [
                 {
                     "type": "translate",
@@ -116,6 +125,7 @@
         },
         {
             "model": "#bottom",
+            "optional": true,
             "cullface": "none",
             "transformations": [
                 {

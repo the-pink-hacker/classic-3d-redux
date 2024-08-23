@@ -1,0 +1,6 @@
+{
+    "import": {
+        "side": "minecraft:template/face/cut_sandstone_half_bottom"
+    },
+    "composition": "minecraft:template/slab"
+}
