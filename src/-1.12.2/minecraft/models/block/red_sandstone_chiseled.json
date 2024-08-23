@@ -1,0 +1,6 @@
+{
+    "import": {
+        "textures": "minecraft:template/texture/chiseled_red_sandstone"
+    },
+    "composition": "minecraft:template/chiseled_red_sandstone"
+}

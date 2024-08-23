@@ -1,0 +1,9 @@
+{
+    "textures": {
+        "end": "minecraft:block/red_sandstone_top",
+        "side": "minecraft:block/chiseled_red_sandstone"
+    },
+    "mcpacker": {
+        "virtual": true
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "virtual": true,
+    "import": {
+        "side": "minecraft:template/face/chiseled_sandstone"
+    },
+    "composition": "minecraft:template/cube_column"
+}

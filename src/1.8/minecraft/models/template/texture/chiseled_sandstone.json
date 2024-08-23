@@ -1,7 +1,7 @@
 {
     "textures": {
         "end": "minecraft:block/sandstone_top",
-        "side": "minecraft:block/cut_red_sandstone"
+        "side": "minecraft:block/sandstone_carved"
     },
     "mcpacker": {
         "virtual": true
