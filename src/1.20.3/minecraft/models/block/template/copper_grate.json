@@ -1,0 +1,6 @@
+{
+    "import": {
+        "face": "minecraft:template/face/copper_grate"
+    },
+    "composition": "minecraft:template/cage"
+}
