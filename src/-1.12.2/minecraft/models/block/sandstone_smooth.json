@@ -2,6 +2,6 @@
     "parent": "minecraft:block/template/cut_sandstone",
     "textures": {
         "end": "minecraft:block/sandstone_top",
-        "side": "minecraft:block/red_sandstone_smooth"
+        "side": "minecraft:block/sandstone_smooth"
     }
 }
