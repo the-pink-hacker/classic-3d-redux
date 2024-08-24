@@ -1,10 +1,11 @@
 {
     "import": {
-        "center": "minecraft:template/torch_wall"
-    },
-    "composition": [
-        {
-            "model": "#center"
+        "center": "minecraft:template/torch_wall",
+        "textures": {
+            "textures": {
+                "particle": "#torch"
+            }
         }
-    ]
+    },
+    "composition": "minecraft:template/center"
 }
