@@ -1,0 +1,8 @@
+{
+    "textures": {
+        "all": "minecraft:block/spawner"
+    },
+    "mcpacker": {
+        "virtual": true
+    }
+}

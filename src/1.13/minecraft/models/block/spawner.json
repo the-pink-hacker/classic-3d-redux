@@ -1,0 +1,7 @@
+{
+    "import": {
+        "face": "minecraft:template/face/spawner",
+        "textures": "minecraft:template/texture/spawner"
+    },
+    "composition": "minecraft:template/cage"
+}
