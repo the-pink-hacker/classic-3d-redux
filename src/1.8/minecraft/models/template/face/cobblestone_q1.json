@@ -122,7 +122,6 @@
         {
             "from": [0, 11, -0.5],
             "to": [7, 11, 0],
-            "rotation": {"angle": 0, "axis": "y", "origin": [0, 10, -0.5]},
             "faces": {
                 "up": {"uv": [16, 5, 9, 6], "texture": "#all", "cullface": "north"}
             }

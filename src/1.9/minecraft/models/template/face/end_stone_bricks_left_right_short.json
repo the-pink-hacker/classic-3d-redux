@@ -24,7 +24,6 @@
         {
             "from": [11, 14, -0.5],
             "to": [16, 14, 0],
-            "rotation": {"angle": 0, "axis": "y", "origin": [1, 13, -0.5]},
             "faces": {
                 "up": {"uv": [5, 2, 0, 3], "texture": "#all", "cullface": "north"}
             }
@@ -32,7 +31,6 @@
         {
             "from": [1, 14, -0.5],
             "to": [5, 14, 0],
-            "rotation": {"angle": 0, "axis": "y", "origin": [-10, 13, -0.5]},
             "faces": {
                 "up": {"uv": [15, 2, 11, 3], "texture": "#all", "cullface": "north"}
             }

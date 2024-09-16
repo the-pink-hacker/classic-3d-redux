@@ -31,7 +31,6 @@
         {
             "from": [11, 16, -0.5],
             "to": [16, 16, 0],
-            "rotation": {"angle": 0, "axis": "y", "origin": [11, 0, 0]},
             "faces": {
                 "up": {"uv": [5, 0, 0, 1], "texture": "#all", "cullface": "north"}
             }
