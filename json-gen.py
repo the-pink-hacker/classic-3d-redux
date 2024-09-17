@@ -70,24 +70,30 @@ TALL_WALL_SUFFIXES = [
     "side_tall_ew",
 ]
 
+TRAPDOOR_SUFFIXES = [
+    "top",
+    "bottom",
+    "open",
+]
+
 def main():
-    model = "deepslate_brick_wall_"
+    model = "copper_trapdoor_"
 
-    parent = "stone_brick_wall_"
+    parent = "copper_trapdoor_"
 
-    model_suffixes = WALL_SUFFIXES + TALL_WALL_SUFFIXES
+    model_suffixes = TRAPDOOR_SUFFIXES
 
-    model_folder = "src/1.17/minecraft/models/block/"
+    model_folder = "src/1.20.3/minecraft/models/block/"
     parent_model_id_path = "minecraft:block/template/"
 
     for model_suffix in model_suffixes:
         model_file = f"{model_folder}{model}{model_suffix}.json"
         parent_model_id = f"{parent_model_id_path}{parent}{model_suffix}"
-        #model_data = generate_model_textures(
-        #    parent=parent_model_id,
-        #    all="minecraft:block/nether_brick",
-        #)
-        model_data = generate_model_textures_template(parent_model_id, "minecraft:template/texture/deepslate_brick_wall");
+        model_data = generate_model_textures(
+            parent=parent_model_id,
+            texture="minecraft:block/copper_trapdoor",
+        )
+        #model_data = generate_model_textures_template(parent_model_id, "minecraft:template/texture/deepslate_brick_wall");
 
         with open(model_file, "w") as file:
             json.dump(model_data, file, indent=4)

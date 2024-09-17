@@ -13,7 +13,10 @@
         },
         {
             "model": "#bottom",
-            "cullface": "auto"
+            "cullface": "auto",
+            "textures": {
+                "all": "#texture"
+            }
         }
     ]
 }

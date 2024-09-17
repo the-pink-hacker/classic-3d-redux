@@ -14,6 +14,9 @@
         {
             "model": "#bottom",
             "cullface": "auto",
+            "textures": {
+                "all": "#texture"
+            },
             "transformations": [
                 {
                     "type": "rotate",
