@@ -1,0 +1,11 @@
+{
+    "import": {
+        "face": "minecraft:template/face/sea_lantern",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/sea_lantern"
+            }
+        }
+    },
+    "composition": "minecraft:template/cube_border"
+}
