@@ -120,5 +120,8 @@
                 "west": {"uv": [15, 0, 16, 16], "texture": "#all", "cullface": "west"}
             }
         }
-    ]
+    ],
+    "mcpacker": {
+        "virtual": true
+    }
 }

@@ -1,5 +1,4 @@
 {
-    "parent": "minecraft:block/cube_all",
     "elements": [
         {
             "from": [2, 1, 0],
@@ -81,5 +80,8 @@
                 "down": {"uv": [15, 2, 1, 3], "texture": "#all", "cullface": "north"}
             }
         }
-    ]
+    ],
+    "mcpacker": {
+        "virtual": true
+    }
 }

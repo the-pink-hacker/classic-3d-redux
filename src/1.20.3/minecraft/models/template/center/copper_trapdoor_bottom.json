@@ -172,5 +172,8 @@
                 "north": {"uv": [4, 10, 12, 11], "texture": "#all"}
             }
         }
-    ]
+    ],
+    "mcpacker": {
+        "virtual": true
+    }
 }
