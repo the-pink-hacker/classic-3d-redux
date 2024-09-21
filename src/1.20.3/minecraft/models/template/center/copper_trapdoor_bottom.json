@@ -36,7 +36,7 @@
             "from": [0, 0, 13],
             "to": [16, 3, 16],
             "faces": {
-                "north": {"uv": [0, 13, 16, 14], "texture": "#all"},
+                "north": {"uv": [16, 13, 0, 14], "texture": "#all"},
                 "south": {"uv": [0, 16, 16, 13], "texture": "#all", "cullface": "south"}
             }
         },
@@ -60,7 +60,7 @@
             "from": [10, 0, 4],
             "to": [12, 3, 6],
             "faces": {
-                "north": {"uv": [10, 4, 12, 5], "texture": "#all"},
+                "north": {"uv": [12, 4, 10, 5], "texture": "#all"},
                 "east": {"uv": [11, 4, 12, 6], "rotation": 90, "texture": "#all"}
             }
         },
@@ -84,7 +84,7 @@
             "from": [4, 0, 4],
             "to": [6, 3, 6],
             "faces": {
-                "north": {"uv": [4, 4, 6, 5], "texture": "#all"},
+                "north": {"uv": [6, 4, 4, 5], "texture": "#all"},
                 "west": {"uv": [4, 4, 5, 6], "rotation": 270, "texture": "#all"}
             }
         },
@@ -118,7 +118,7 @@
             "from": [9, 0, 5],
             "to": [10, 3, 11],
             "faces": {
-                "north": {"uv": [9, 5, 10, 6], "texture": "#all"},
+                "north": {"uv": [10, 5, 9, 6], "texture": "#all"},
                 "east": {"uv": [9, 5, 10, 11], "rotation": 90, "texture": "#all"},
                 "south": {"uv": [9, 10, 10, 11], "texture": "#all"},
                 "west": {"uv": [9, 5, 10, 11], "rotation": 270, "texture": "#all"}
@@ -128,7 +128,7 @@
             "from": [6, 0, 5],
             "to": [7, 3, 11],
             "faces": {
-                "north": {"uv": [6, 5, 7, 6], "texture": "#all"},
+                "north": {"uv": [7, 5, 6, 6], "texture": "#all"},
                 "east": {"uv": [6, 5, 7, 11], "rotation": 90, "texture": "#all"},
                 "south": {"uv": [6, 10, 7, 11], "texture": "#all"},
                 "west": {"uv": [6, 5, 7, 11], "rotation": 270, "texture": "#all"}
@@ -138,7 +138,7 @@
             "from": [5, 0, 6],
             "to": [11, 3, 7],
             "faces": {
-                "north": {"uv": [5, 6, 11, 7], "texture": "#all"},
+                "north": {"uv": [11, 6, 5, 7], "texture": "#all"},
                 "east": {"uv": [10, 6, 11, 7], "rotation": 90, "texture": "#all"},
                 "south": {"uv": [5, 6, 11, 7], "texture": "#all"},
                 "west": {"uv": [5, 6, 6, 7], "rotation": 270, "texture": "#all"}
