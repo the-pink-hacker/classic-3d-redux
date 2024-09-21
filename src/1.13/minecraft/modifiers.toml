@@ -2,4 +2,5 @@ order = [
     "minecraft:zfighting/edges",
     "minecraft:zfighting/door_edges",
     "minecraft:zfighting/outside_faces",
+    "minecraft:culling/culling",
 ]

@@ -1,0 +1,13 @@
+[[modifiers]]
+type = "culling"
+
+[modifiers.selector]
+type = "blacklist"
+
+[modifiers.selector.qualifier]
+type = "items"
+items = [
+    "minecraft:block/template/copper_trapdoor_top",
+    "minecraft:block/template/copper_trapdoor_open",
+    "minecraft:block/template/copper_trapdoor_bottom",
+]
