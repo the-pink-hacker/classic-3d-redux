@@ -42,7 +42,7 @@ color = "red"
 
 # 1.21
 
-[build.1-21]
+[build."1.21"]
 bundles = [
     "1.8",
     "1.9",
@@ -58,18 +58,18 @@ bundles = [
 ]
 minecraft_versions = "1.21"
 
-[build.1-21.pack]
+[build."1.21".pack]
 format.minimum = 33
 format.maximum = 34
 
-[build.1-21.pack.suffix]
+[build."1.21".pack.suffix]
 type = "text"
 text = " 1.21"
 color = "yellow"
 
 # 1.20
 
-[build.1-20]
+[build."1.20"]
 bundles = [
     "1.8",
     "1.9",
@@ -93,18 +93,18 @@ minecraft_versions = [
     "1.20.6",
 ]
 
-[build.1-20.pack]
+[build."1.20".pack]
 format.minimum = 14
 format.maximum = 32
 
-[build.1-20.pack.suffix]
+[build."1.20".pack.suffix]
 type = "text"
 text = " 1.20"
 color = "yellow"
 
 # 1.19
 
-[build.1-19]
+[build."1.19"]
 bundles = [
     "1.8",
     "1.9",
@@ -119,31 +119,31 @@ bundles = [
 ]
 minecraft_versions = ["1.19", "1.19.1", "1.19.2", "1.19.3", "1.19.4"]
 
-[build.1-19.pack]
+[build."1.19".pack]
 format = 13
 
-[build.1-19.pack.suffix]
+[build."1.19".pack.suffix]
 type = "text"
 text = " 1.19"
 color = "yellow"
 
 # 1.18
 
-[build.1-18]
+[build."1.18"]
 bundles = ["1.8", "1.9", "1.10", "1.13", "1.14", "1.16", "1.17"]
 minecraft_versions = ["1.18", "1.18.1", "1.18.2"]
 
-[build.1-18.pack]
+[build."1.18".pack]
 format = 8
 
-[build.1-18.pack.suffix]
+[build."1.18".pack.suffix]
 type = "text"
 text = " 1.18"
 color = "yellow"
 
 # 1.18
 
-[build.1-17]
+[build."1.17"]
 bundles = [
     "1.8",
     "1.9",
@@ -157,17 +157,17 @@ bundles = [
 ]
 minecraft_versions = ["1.17", "1.17.1"]
 
-[build.1-17.pack]
+[build."1.17".pack]
 format = 7
 
-[build.1-17.pack.suffix]
+[build."1.17".pack.suffix]
 type = "text"
 text = " 1.17"
 color = "yellow"
 
 # 1.16
 
-[build.1-16]
+[build."1.16"]
 bundles = [
     "1.8",
     "1.9",
@@ -181,17 +181,17 @@ bundles = [
 ]
 minecraft_versions = ["1.16", "1.16.1", "1.16.2", "1.16.3", "1.16.4", "1.16.5"]
 
-[build.1-16.pack]
+[build."1.16".pack]
 format = 6
 
-[build.1-16.pack.suffix]
+[build."1.16".pack.suffix]
 type = "text"
 text = " 1.16"
 color = "yellow"
 
 # 1.15
 
-[build.1-15]
+[build."1.15"]
 bundles = [
     "1.8",
     "1.9",
@@ -204,17 +204,17 @@ bundles = [
 ]
 minecraft_versions = ["1.15", "1.15.1", "1.15.2"]
 
-[build.1-15.pack]
+[build."1.15".pack]
 format = 5
 
-[build.1-15.pack.suffix]
+[build."1.15".pack.suffix]
 type = "text"
 text = " 1.15"
 color = "yellow"
 
 # 1.14
 
-[build.1-14]
+[build."1.14"]
 bundles = [
     "1.8",
     "1.9",
@@ -227,17 +227,17 @@ bundles = [
 ]
 minecraft_versions = ["1.14", "1.14.1", "1.14.2", "1.14.3", "1.14.4"]
 
-[build.1-14.pack]
+[build."1.14".pack]
 format = 4
 
-[build.1-14.pack.suffix]
+[build."1.14".pack.suffix]
 type = "text"
 text = " 1.14"
 color = "yellow"
 
 # 1.13
 
-[build.1-13]
+[build."1.13"]
 bundles = [
     "1.8",
     "1.9",
@@ -250,17 +250,17 @@ bundles = [
 ]
 minecraft_versions = ["1.13", "1.13.1", "1.13.2"]
 
-[build.1-13.pack]
+[build."1.13".pack]
 format = 4
 
-[build.1-13.pack.suffix]
+[build."1.13".pack.suffix]
 type = "text"
 text = " 1.13"
 color = "yellow"
 
 # 1.12
 
-[build.1-12]
+[build."1.12"]
 bundles = [
     "1.8",
     "1.9",
@@ -272,17 +272,17 @@ bundles = [
 ]
 minecraft_versions = ["1.12", "1.12.1", "1.12.2"]
 
-[build.1-12.pack]
+[build."1.12".pack]
 format = 3
 
-[build.1-12.pack.suffix]
+[build."1.12".pack.suffix]
 type = "text"
 text = " 1.12"
 color = "yellow"
 
 # 1.11
 
-[build.1-11]
+[build."1.11"]
 bundles = [
     "1.8",
     "1.9",
@@ -294,17 +294,17 @@ bundles = [
 ]
 minecraft_versions = ["1.11", "1.11.1", "1.11.2"]
 
-[build.1-11.pack]
+[build."1.11".pack]
 format = 3
 
-[build.1-11.pack.suffix]
+[build."1.11".pack.suffix]
 type = "text"
 text = " 1.11"
 color = "yellow"
 
 # 1.10
 
-[build.1-10]
+[build."1.10"]
 bundles = [
     "1.8",
     "1.9",
@@ -316,24 +316,24 @@ bundles = [
 ]
 minecraft_versions = ["1.10", "1.10.1", "1.10.2"]
 
-[build.1-10.pack]
+[build."1.10".pack]
 format = 2
 
-[build.1-10.pack.suffix]
+[build."1.10".pack.suffix]
 type = "text"
 text = " 1.10"
 color = "yellow"
 
 # 1.9
 
-[build.1-09]
+[build."1.9"]
 bundles = ["1.8", "1.9", "1.9-1.16.4", "-1.9.4", "1.9-1.12.2", "-1.12.2"]
 minecraft_versions = ["1.9", "1.9.1", "1.9.2", "1.9.3", "1.9.4"]
 
-[build.1-09.pack]
+[build."1.9".pack]
 format = 2
 
-[build.1-09.pack.suffix]
+[build."1.9".pack.suffix]
 type = "text"
 text = " 1.9"
 color = "yellow"
