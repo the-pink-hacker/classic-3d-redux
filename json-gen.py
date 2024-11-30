@@ -77,13 +77,13 @@ TRAPDOOR_SUFFIXES = [
 ]
 
 def main():
-    model = "copper_trapdoor_"
+    model = "pale_oak_stairs_"
 
-    parent = "copper_trapdoor_"
+    parent = "plank_stairs_"
 
-    model_suffixes = TRAPDOOR_SUFFIXES
+    model_suffixes = STAIR_SUFFIXES
 
-    model_folder = "src/1.20.3/minecraft/models/block/"
+    model_folder = "src/1.21.2/minecraft/models/block/"
     parent_model_id_path = "minecraft:block/template/"
 
     for model_suffix in model_suffixes:
@@ -91,7 +91,7 @@ def main():
         parent_model_id = f"{parent_model_id_path}{parent}{model_suffix}"
         model_data = generate_model_textures(
             parent=parent_model_id,
-            texture="minecraft:block/copper_trapdoor",
+            all="minecraft:block/pale_oak_planks",
         )
         #model_data = generate_model_textures_template(parent_model_id, "minecraft:template/texture/deepslate_brick_wall");
 
