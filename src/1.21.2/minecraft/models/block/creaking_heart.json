@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/template/creaking_heart",
+    "textures": {
+        "side": "minecraft:block/creaking_heart",
+        "end": "minecraft:block/creaking_heart_top"
+    }
+}

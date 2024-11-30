@@ -1,0 +1,7 @@
+{
+    "import": {
+        "side": "minecraft:template/face/creaking_heart",
+        "end": "minecraft:template/face/creaking_heart_top"
+    },
+    "composition": "minecraft:template/cube_column"
+}
