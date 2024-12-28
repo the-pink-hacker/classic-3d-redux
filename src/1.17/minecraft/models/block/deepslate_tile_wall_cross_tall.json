@@ -1,0 +1,9 @@
+{
+    "import": {
+        "left_right_tall": "minecraft:template/face/deepslate_tiles_left_right_tall",
+        "center_vertical_thin_tall": "minecraft:template/face/deepslate_tiles_center_vertical_thin_tall",
+        "cross": "minecraft:template/face/deepslate_tiles_cross",
+        "textures": "minecraft:template/texture/deepslate_tile_wall"
+    },
+    "composition": "minecraft:template/wall_cross_tall"
+}

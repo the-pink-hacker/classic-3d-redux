@@ -1,0 +1,10 @@
+{
+    "import": {
+        "north": "minecraft:block/deepslate_tile_wall_side_north",
+        "south": "minecraft:block/deepslate_tile_wall_side_south",
+        "center_vertical_half": "minecraft:template/face/deepslate_tiles_center_vertical_half",
+        "center_vertical_half_cutout_short": "minecraft:template/face/deepslate_tiles_center_vertical_half_cutout",
+        "post": "minecraft:block/deepslate_tile_wall_post"
+    },
+    "composition": "minecraft:template/wall_inventory"
+}

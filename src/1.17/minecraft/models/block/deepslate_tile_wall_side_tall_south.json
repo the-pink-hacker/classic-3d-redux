@@ -1,0 +1,11 @@
+{
+    "import": {
+        "center_top_thin": "minecraft:template/face/deepslate_tiles_center_top_thin",
+        "center_bottom_thin": "minecraft:template/face/deepslate_tiles_center_bottom_thin",
+        "left_thin_tall": "minecraft:template/face/deepslate_tiles_left_thin_tall",
+        "right_thin_tall": "minecraft:template/face/deepslate_tiles_right_thin_tall",
+        "center_vertical_thin_tall": "minecraft:template/face/deepslate_tiles_center_vertical_thin_tall",
+        "textures": "minecraft:template/texture/deepslate_tile_wall"
+    },
+    "composition": "minecraft:template/wall_side_tall_south"
+}

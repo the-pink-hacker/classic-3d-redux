@@ -1,0 +1,7 @@
+{
+    "import": {
+        "center_vertical_half_cutout_short": "minecraft:template/face/deepslate_tiles_center_vertical_half_cutout",
+        "textures": "minecraft:template/texture/deepslate_tile_wall"
+    },
+    "composition": "minecraft:template/wall_post_side_cutout_short"
+}

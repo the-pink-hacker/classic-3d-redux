@@ -1,0 +1,6 @@
+{
+    "import": {
+        "face": "minecraft:template/face/deepslate_tiles"
+    },
+    "composition": "minecraft:template/cube_all"
+}

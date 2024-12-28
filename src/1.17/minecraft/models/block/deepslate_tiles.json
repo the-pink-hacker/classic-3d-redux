@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template/deepslate_tiles",
+    "textures": {
+        "all": "minecraft:block/deepslate_tiles"
+    }
+}

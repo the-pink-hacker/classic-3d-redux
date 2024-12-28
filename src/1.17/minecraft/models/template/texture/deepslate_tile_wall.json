@@ -1,0 +1,8 @@
+{
+    "textures": {
+        "wall": "minecraft:block/deepslate_tiles"
+    },
+    "mcpacker": {
+        "virtual": true
+    }
+}

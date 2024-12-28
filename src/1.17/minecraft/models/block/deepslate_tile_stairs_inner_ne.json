@@ -1,0 +1,17 @@
+{
+    "import": {
+        "face": "minecraft:template/face/deepslate_tiles",
+        "quarter_left": "minecraft:template/face/deepslate_tiles_q1",
+        "quarter_right": "minecraft:template/face/deepslate_tiles_q2",
+        "quarter_top": "minecraft:template/face/deepslate_tiles_q1",
+        "side_left": "minecraft:template/face/deepslate_tiles_l1",
+        "side_right": "minecraft:template/face/deepslate_tiles_l2",
+        "top": "minecraft:template/face/deepslate_tiles_l1",
+        "textures": {
+            "textures": {
+                "all": "minecraft:block/deepslate_tiles"
+            }
+        }
+    },
+    "composition": "minecraft:template/stairs_all_inner_ne"
+}

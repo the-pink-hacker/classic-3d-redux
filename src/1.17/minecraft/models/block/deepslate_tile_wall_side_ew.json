@@ -1,0 +1,9 @@
+{
+    "import": {
+        "short": "minecraft:template/face/deepslate_tiles_short",
+        "center_vertical_thin_short": "minecraft:template/face/deepslate_tiles_center_vertical_thin_short",
+        "center_horizontal_thin": "minecraft:template/face/deepslate_tiles_center_horizontal_thin",
+        "textures": "minecraft:template/texture/deepslate_tile_wall"
+    },
+    "composition": "minecraft:template/wall_side_ew"
+}
