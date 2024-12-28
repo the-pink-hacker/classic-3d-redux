@@ -1,0 +1,7 @@
+{
+    "import": {
+        "center": "minecraft:block/template/bordered_cube",
+        "face": "minecraft:template/face/copper_bulb"
+    },
+    "composition": "minecraft:template/cube_all"
+}
