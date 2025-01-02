@@ -1,5 +1,6 @@
 {
     "textures": {
+        "particle": "block/composter_side",
         "compost": "block/composter_compost",
         "side": "block/composter_side"
     },

@@ -1,6 +1,7 @@
 {
     "parent": "minecraft:block/block",
     "textures": {
+        "particle": "block/composter_side",
         "bottom": "block/composter_bottom",
         "side": "block/composter_side"
     },
