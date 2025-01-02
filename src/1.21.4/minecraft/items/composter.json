@@ -1,6 +1,6 @@
 {
     "model": {
-        "type": "composite",
+        "type": "minecraft:composite",
         "models": [
             {
                 "type": "model",
