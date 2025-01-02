@@ -1,5 +1,6 @@
 {
     "textures": {
+        "particle": "block/chiseled_bookshelf_top",
         "texture": "block/chiseled_bookshelf_occupied"
     },
     "elements": [
