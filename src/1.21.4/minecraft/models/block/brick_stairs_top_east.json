@@ -1,0 +1,9 @@
+{
+    "import": {
+        "parent": {
+            "parent": "minecraft:block/template/brick_stairs_top_east"
+        },
+        "texture": "minecraft:template/texture/bricks"
+    },
+    "composition": "minecraft:template/parent"
+}

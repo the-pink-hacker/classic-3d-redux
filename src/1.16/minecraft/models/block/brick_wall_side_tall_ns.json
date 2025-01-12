@@ -1,8 +1,6 @@
 {
     "import": {
-        "face": "minecraft:template/face/bricks",
-        "center_vertical_thin_tall": "minecraft:template/face/bricks_center_vertical_thin_tall",
         "textures": "minecraft:template/texture/brick_wall"
     },
-    "composition": "minecraft:template/wall_side_tall_ns"
+    "composition": "minecraft:template/brick_wall_side_tall_ns"
 }

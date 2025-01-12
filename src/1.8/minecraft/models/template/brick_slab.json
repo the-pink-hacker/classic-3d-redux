@@ -1,0 +1,8 @@
+{
+    "virtual": true,
+    "import": {
+        "face": "minecraft:template/face/bricks",
+        "side": "minecraft:template/face/bricks_half_bottom"
+    },
+    "composition": "minecraft:template/slab_all"
+}

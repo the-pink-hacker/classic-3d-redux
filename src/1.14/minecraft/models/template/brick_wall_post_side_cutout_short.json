@@ -1,0 +1,7 @@
+{
+    "virtual": true,
+    "import": {
+        "center_vertical_half_cutout_short": "minecraft:template/face/bricks_center_vertical_half_cutout_short"
+    },
+    "composition": "minecraft:template/wall_post_side_cutout_short"
+}

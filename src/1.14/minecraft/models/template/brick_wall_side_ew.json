@@ -1,0 +1,9 @@
+{
+    "virtual": true,
+    "import": {
+        "short": "minecraft:template/face/bricks_short",
+        "center_vertical_thin_short": "minecraft:template/face/bricks_center_vertical_thin_short",
+        "center_horizontal_thin": "minecraft:template/face/bricks_center_horizontal_thin"
+    },
+    "composition": "minecraft:template/wall_side_ew"
+}

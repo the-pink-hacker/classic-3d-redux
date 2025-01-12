@@ -18,6 +18,14 @@ def generate_model_textures_template(parent: str, texture_template: str) -> dict
         "composition": "minecraft:template/parent",
     }
 
+def generate_model_template_child(parent: str, texture_template: str) -> dict:
+    return {
+        "import": {
+            "textures": texture_template,
+        },
+        "composition": parent,
+    }
+
 STAIR_SUFFIXES = [
     "north",
     "east",
@@ -77,23 +85,27 @@ TRAPDOOR_SUFFIXES = [
 ]
 
 def main():
-    model = "pale_oak_stairs_"
+    model = "brick_stairs_"
 
-    parent = "plank_stairs_"
+    parent = "brick_stairs_"
 
     model_suffixes = STAIR_SUFFIXES
 
-    model_folder = "src/1.21.2/minecraft/models/block/"
+    model_folder = "src/1.21.4/minecraft/models/block/"
     parent_model_id_path = "minecraft:block/template/"
 
     for model_suffix in model_suffixes:
         model_file = f"{model_folder}{model}{model_suffix}.json"
         parent_model_id = f"{parent_model_id_path}{parent}{model_suffix}"
-        model_data = generate_model_textures(
-            parent=parent_model_id,
-            all="minecraft:block/pale_oak_planks",
-        )
-        #model_data = generate_model_textures_template(parent_model_id, "minecraft:template/texture/deepslate_brick_wall");
+        #model_data = generate_model_textures(
+        #    parent=parent_model_id,
+        #    all="minecraft:block/pale_oak_planks",
+        #)
+        model_data = generate_model_textures_template(parent_model_id, "minecraft:template/texture/bricks")
+        #model_data = generate_model_template_child(parent_model_id, "minecraft:template/texture/bricks")
+        #model_data = {
+        #    "composition": parent_model_id,
+        #}
 
         with open(model_file, "w") as file:
             json.dump(model_data, file, indent=4)

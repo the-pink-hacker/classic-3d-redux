@@ -1,0 +1,7 @@
+{
+    "virtual": true,
+    "import": {
+        "center_vertical_half": "minecraft:template/face/bricks_center_vertical_half"
+    },
+    "composition": "minecraft:template/wall_post_side"
+}

@@ -1,11 +1,6 @@
 {
     "import": {
-        "center_top_thin": "minecraft:template/face/bricks_center_top_thin",
-        "center_bottom_thin": "minecraft:template/face/bricks_center_bottom_thin",
-        "left_thin_short": "minecraft:template/face/bricks_left_thin_short",
-        "right_thin_short": "minecraft:template/face/bricks_right_thin_short",
-        "center_vertical_thin_short": "minecraft:template/face/bricks_center_vertical_thin_short",
         "textures": "minecraft:template/texture/brick_wall"
     },
-    "composition": "minecraft:template/wall_side_north"
+    "composition": "minecraft:template/brick_wall_side_north"
 }

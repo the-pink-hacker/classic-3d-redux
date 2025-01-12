@@ -1,0 +1,14 @@
+{
+    "virtual": true,
+    "import": {
+        "face": "minecraft:template/face/bricks",
+        "quarter_left": "minecraft:template/face/bricks_q2",
+        "quarter_right": "minecraft:template/face/bricks_q1",
+        "quarter_top": "minecraft:template/face/bricks_q2",
+        "side_front": "minecraft:template/face/bricks_half_bottom",
+        "side_left": "minecraft:template/face/bricks_l1",
+        "side_right": "minecraft:template/face/bricks_l2",
+        "top": "minecraft:template/face/bricks_l2"
+    },
+    "composition": "minecraft:template/stairs_all_outer_nw"
+}

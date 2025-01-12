@@ -1,7 +1,0 @@
-{
-    "import": {
-        "center_vertical_half_cutout_tall": "minecraft:template/face/bricks_center_vertical_half_cutout_tall",
-        "textures": "minecraft:template/texture/brick_wall"
-    },
-    "composition": "minecraft:template/wall_post_side_cutout_tall"
-}

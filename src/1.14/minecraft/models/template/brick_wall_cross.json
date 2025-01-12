@@ -1,0 +1,9 @@
+{
+    "virtual": true,
+    "import": {
+        "left_right_short": "minecraft:template/face/bricks_left_right_short",
+        "center_vertical_thin_short": "minecraft:template/face/bricks_center_vertical_thin_short",
+        "cross": "minecraft:template/face/bricks_cross"
+    },
+    "composition": "minecraft:template/wall_cross"
+}

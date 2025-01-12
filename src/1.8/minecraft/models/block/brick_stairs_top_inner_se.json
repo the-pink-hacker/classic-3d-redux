@@ -1,17 +1,6 @@
 {
     "import": {
-        "face": "minecraft:template/face/bricks",
-        "quarter_left": "minecraft:template/face/bricks_q4",
-        "quarter_right": "minecraft:template/face/bricks_q3",
-        "quarter_bottom": "minecraft:template/face/bricks_q1",
-        "side_left": "minecraft:template/face/bricks_l4",
-        "side_right": "minecraft:template/face/bricks_l3",
-        "bottom": "minecraft:template/face/bricks_l1",
-        "textures": {
-            "textures": {
-                "all": "minecraft:block/brick"
-            }
-        }
+        "textures": "minecraft:template/texture/bricks"
     },
-    "composition": "minecraft:template/stairs_all_top_inner_se"
+    "composition": "minecraft:template/brick_stairs_top_inner_se"
 }

@@ -4,7 +4,8 @@
         "south": "minecraft:block/brick_wall_side_south",
         "center_vertical_half": "minecraft:template/face/bricks_center_vertical_half",
         "center_vertical_half_cutout_short": "minecraft:template/face/bricks_center_vertical_half_cutout_short",
-        "post": "minecraft:block/brick_wall_post"
+        "post": "minecraft:block/brick_wall_post",
+        "textures": "minecraft:template/texture/brick_wall"
     },
     "composition": "minecraft:template/wall_inventory"
 }

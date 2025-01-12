@@ -1,0 +1,6 @@
+{
+    "import": {
+        "textures": "minecraft:template/texture/brick_wall"
+    },
+    "composition": "minecraft:template/brick_wall_post_side_cutout_tall"
+}

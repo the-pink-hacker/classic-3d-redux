@@ -1,11 +1,6 @@
 {
     "import": {
-        "face": "minecraft:template/face/bricks",
-        "textures": {
-            "textures": {
-                "all": "minecraft:block/brick"
-            }
-        }
+        "textures": "minecraft:template/texture/bricks"
     },
-    "composition": "minecraft:template/cube_all"
+    "composition": "minecraft:template/bricks"
 }

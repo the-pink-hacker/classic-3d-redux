@@ -1,7 +1,6 @@
 {
     "import": {
-        "center_vertical_half": "minecraft:template/face/bricks_center_vertical_half",
         "textures": "minecraft:template/texture/brick_wall"
     },
-    "composition": "minecraft:template/wall_post_side"
+    "composition": "minecraft:template/brick_wall_post_side"
 }

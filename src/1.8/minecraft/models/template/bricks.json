@@ -1,0 +1,7 @@
+{
+    "virtual": true,
+    "import": {
+        "face": "minecraft:template/face/bricks"
+    },
+    "composition": "minecraft:template/cube_all"
+}
