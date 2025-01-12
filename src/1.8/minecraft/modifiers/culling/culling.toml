@@ -10,4 +10,5 @@ items = [
     "minecraft:block/template/copper_trapdoor_top",
     "minecraft:block/template/copper_trapdoor_open",
     "minecraft:block/template/copper_trapdoor_bottom",
+    "minecraft:block/template/copper_grate"
 ]
