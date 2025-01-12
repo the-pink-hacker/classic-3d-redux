@@ -1,0 +1,6 @@
+{
+    "import": {
+        "textures": "minecraft:template/texture/bricks"
+    },
+    "composition": "minecraft:template/bricks"
+}

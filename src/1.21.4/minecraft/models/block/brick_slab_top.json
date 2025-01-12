@@ -1,0 +1,9 @@
+{
+    "import": {
+        "parent": {
+            "parent": "minecraft:block/template/brick_slab_top"
+        },
+        "texture": "minecraft:template/texture/bricks"
+    },
+    "composition": "minecraft:template/parent"
+}
