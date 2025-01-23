@@ -10,14 +10,36 @@ Redux is a careful and methodical recreation.
 
 ## Build
 
-Classic 3D Redux is built with `mcpacker`.
+Classic 3D Redux is built with [mcpacker](https://github.thepinkhacker.com/mcpacker). It should be noted that MCPacker has only been tested with Linux and will likely only work on unix-like OSes.
 
 ### Debug
 
-Create a file in your `.minecraft` folder called `allowed_symlinks.txt`. Add the directory of the project's `build` folder.
+Create a file in your `.minecraft` folder called `allowed_symlinks.txt`.
+Add the directory of the project's `build` folder.
+This is required since MCPacker creates symlinks in the resourcepack folder to the build.
+For example:
 
-Run the following command to generate a 1.20 debug build:
+```
+[prefix]C:\Users\USERNAME\Documents\classic-3d-redux
+```
+
+Run the following command to generate a 1.20 debug build. This will link a 
 
 ```sh
 mcpacker build debug 1-20
+```
+
+If you want to have rapid prototyping, then use the `--listen` flag or `-l` for short.
+This tells mcpacker to listen for any changes and rebuild as soon as it notices them.
+
+```sh
+mcpacker build debug 1-20 -l
+```
+
+### Release
+
+If you just want a flat zip file for each version, then you just need to run the following command:
+
+```sh
+mcpacker build release ALL
 ```
